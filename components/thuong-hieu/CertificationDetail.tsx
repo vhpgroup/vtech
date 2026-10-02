@@ -195,7 +195,7 @@ export function CertificationDetail({ cert, related, settings }: Props) {
             <h2 className="max-w-2xl text-2xl font-extrabold tracking-tight md:text-3xl">
               Cần tư vấn thiết bị chính hãng cho doanh nghiệp?
             </h2>
-            <p className="mt-2 text-primary-50">HPT Tech hỗ trợ chọn cấu hình, báo giá dự án và xuất hóa đơn VAT.</p>
+            <p className="mt-2 text-primary-50">Vtech Group hỗ trợ chọn cấu hình, báo giá dự án và xuất hóa đơn VAT.</p>
           </div>
           <div className="flex shrink-0 flex-wrap gap-3">
             <Link href="/lien-he" className="inline-flex h-12 items-center justify-center gap-2 rounded-lg bg-white px-6 text-sm font-bold text-primary-700">

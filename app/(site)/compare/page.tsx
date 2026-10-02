@@ -14,7 +14,7 @@ export const revalidate = 300;
 
 export const metadata = pageMetadata({
   title: "So sánh sản phẩm",
-  description: "So sánh nhanh thông số, giá và danh mục sản phẩm thiết bị văn phòng tại HPT Tech.",
+  description: "So sánh nhanh thông số, giá và danh mục sản phẩm thiết bị văn phòng tại Vtech Group.",
   path: "/compare",
 });
 
@@ -188,7 +188,7 @@ export default async function ComparePage({ searchParams }: ComparePageProps) {
       <SubpageHeader
         eyebrow="Công cụ mua hàng"
         title="So sánh sản phẩm"
-        description="So sánh nhanh thông số, giá và danh mục sản phẩm thiết bị văn phòng tại HPT Tech."
+        description="So sánh nhanh thông số, giá và danh mục sản phẩm thiết bị văn phòng tại Vtech Group."
         badge={items.length ? `${items.length} sản phẩm` : undefined}
         breadcrumbs={[
           { label: "Trang chủ", href: "/" },
@@ -199,7 +199,7 @@ export default async function ComparePage({ searchParams }: ComparePageProps) {
 
       <section className="compare-page-hero">
         <div>
-          <p>HPT Tech</p>
+          <p>Vtech Group</p>
           <h1>So sánh chi tiết sản phẩm</h1>
         </div>
         <Link className="compare-page-back" href="/">

@@ -18,7 +18,7 @@ import { phoneHref } from "@/lib/site-settings";
 export const metadata = pageMetadata({
   title: "Hướng dẫn mua hàng",
   description:
-    "Hướng dẫn mua hàng, nhận báo giá và liên hệ tư vấn sản phẩm, giải pháp công nghệ tại HPT Tech.",
+    "Hướng dẫn mua hàng, nhận báo giá và liên hệ tư vấn sản phẩm, giải pháp công nghệ tại Vtech Group.",
   path: "/huong-dan-mua-hang",
 });
 
@@ -49,7 +49,7 @@ export default function ShoppingGuidePage() {
             </h1>
 
             <p className="mx-auto mt-5 max-w-4xl text-center text-slate-600">
-              Cảm ơn Quý khách đã quan tâm đến sản phẩm và giải pháp công nghệ của HPT Tech. Quý
+              Cảm ơn Quý khách đã quan tâm đến sản phẩm và giải pháp công nghệ của Vtech Group. Quý
               khách có thể mua hàng trực tiếp trên website, yêu cầu báo giá hoặc liên hệ tư vấn qua
               hotline và Zalo.
             </p>
@@ -102,7 +102,7 @@ export default function ShoppingGuidePage() {
               <Step title="Bước 4: Xác nhận đơn hàng">
                 <p>
                   Với đơn mua trực tiếp, Quý khách kiểm tra giỏ hàng, nhập họ tên, số điện thoại,
-                  email, khu vực và địa chỉ giao hàng. Sau khi gửi đơn, HPT Tech sẽ liên hệ xác nhận
+                  email, khu vực và địa chỉ giao hàng. Sau khi gửi đơn, Vtech Group sẽ liên hệ xác nhận
                   giá, VAT, phí vận chuyển, phương thức thanh toán và thời gian giao hàng.
                 </p>
               </Step>
@@ -140,7 +140,7 @@ export default function ShoppingGuidePage() {
                 <NumberedStep
                   number="4"
                   title="Xác nhận đơn hàng"
-                  description="Sau khi thống nhất sản phẩm, số lượng, giá, VAT, thanh toán và giao nhận, HPT Tech sẽ xử lý đơn hàng."
+                  description="Sau khi thống nhất sản phẩm, số lượng, giá, VAT, thanh toán và giao nhận, Vtech Group sẽ xử lý đơn hàng."
                 />
               </ol>
             </GuideSection>
@@ -151,7 +151,7 @@ export default function ShoppingGuidePage() {
                 đổi báo giá.
               </p>
               <div className="mt-5 border border-primary-200 bg-primary-50 p-5">
-                <p className="font-semibold text-slate-900">Zalo HPT Tech</p>
+                <p className="font-semibold text-slate-900">Zalo Vtech Group</p>
                 <a
                   className="mt-1 inline-flex items-center gap-2 text-lg font-bold text-primary-700 hover:underline"
                   href={zaloHref}
@@ -191,7 +191,7 @@ export default function ShoppingGuidePage() {
               </div>
               <p className="mt-5">
                 Giá bán, VAT, phí vận chuyển, thời gian giao hàng và phương thức thanh toán được xác
-                nhận với khách hàng trước khi HPT Tech thực hiện đơn hàng.
+                nhận với khách hàng trước khi Vtech Group thực hiện đơn hàng.
               </p>
             </GuideSection>
 
@@ -206,7 +206,7 @@ export default function ShoppingGuidePage() {
                 ]}
               />
               <p>
-                Với dự án hoặc hệ thống doanh nghiệp, HPT Tech có thể hỗ trợ khảo sát và tư vấn giải
+                Với dự án hoặc hệ thống doanh nghiệp, Vtech Group có thể hỗ trợ khảo sát và tư vấn giải
                 pháp tổng thể phù hợp với điều kiện vận hành thực tế.
               </p>
             </GuideSection>
@@ -214,26 +214,26 @@ export default function ShoppingGuidePage() {
             <GuideSection number="6" title="Câu hỏi thường gặp">
               <Faq
                 question="Tôi có thể nhận báo giá trong bao lâu?"
-                answer="HPT Tech sẽ phản hồi sớm nhất trong giờ làm việc. Thời gian cụ thể phụ thuộc vào sản phẩm, số lượng và mức độ phức tạp của yêu cầu."
+                answer="Vtech Group sẽ phản hồi sớm nhất trong giờ làm việc. Thời gian cụ thể phụ thuộc vào sản phẩm, số lượng và mức độ phức tạp của yêu cầu."
               />
               <Faq
-                question="HPT Tech có giao hàng toàn quốc không?"
-                answer="Có. HPT Tech hỗ trợ giao hàng toàn quốc qua đơn vị vận chuyển hoặc giao trực tiếp tùy khu vực và quy mô dự án."
+                question="Vtech Group có giao hàng toàn quốc không?"
+                answer="Có. Vtech Group hỗ trợ giao hàng toàn quốc qua đơn vị vận chuyển hoặc giao trực tiếp tùy khu vực và quy mô dự án."
               />
               <Faq
                 question="Doanh nghiệp có được xuất hóa đơn VAT không?"
-                answer="Có. HPT Tech cung cấp hóa đơn VAT theo quy định hiện hành sau khi xác nhận đầy đủ thông tin xuất hóa đơn."
+                answer="Có. Vtech Group cung cấp hóa đơn VAT theo quy định hiện hành sau khi xác nhận đầy đủ thông tin xuất hóa đơn."
               />
               <Faq
                 question="Tôi chưa biết chọn sản phẩm nào thì sao?"
-                answer="Quý khách chỉ cần mô tả nhu cầu, ngân sách và môi trường sử dụng. Đội ngũ HPT Tech sẽ tư vấn sản phẩm hoặc giải pháp phù hợp."
+                answer="Quý khách chỉ cần mô tả nhu cầu, ngân sách và môi trường sử dụng. Đội ngũ Vtech Group sẽ tư vấn sản phẩm hoặc giải pháp phù hợp."
               />
             </GuideSection>
 
             <GuideSection number="7" title="Thông tin liên hệ">
               <div className="border border-slate-300 bg-slate-50 p-5 sm:p-6">
                 <h3 className="font-black uppercase leading-7 text-slate-900">
-                  Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT
+                  Công ty TNHH Vtech Group
                 </h3>
                 <div className="mt-5 grid gap-4 md:grid-cols-2">
                   <ContactItem icon={MapPin} label="Địa chỉ" value={address} />

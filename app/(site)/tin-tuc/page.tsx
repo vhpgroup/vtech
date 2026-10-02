@@ -6,7 +6,7 @@ export const revalidate = 300;
 
 export const metadata = pageMetadata({
   title: "Tin tức",
-  description: "Tin tức sản phẩm, hướng dẫn chọn thiết bị văn phòng và nội dung số hóa tài liệu từ HPT Tech.",
+  description: "Tin tức sản phẩm, hướng dẫn chọn thiết bị văn phòng và nội dung số hóa tài liệu từ Vtech Group.",
   path: "/tin-tuc",
 });
 

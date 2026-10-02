@@ -5,7 +5,7 @@ export const defaultAboutPage = {
   hero: {
     title: "Đối tác công nghệ cho doanh nghiệp hiện đại",
     description:
-      "HPT TECH cung cấp thiết bị công nghệ, dịch vụ kỹ thuật và giải pháp hạ tầng CNTT toàn diện, giúp doanh nghiệp vận hành hiệu quả và phát triển bền vững.",
+      "VTECH GROUP cung cấp thiết bị công nghệ, dịch vụ kỹ thuật và giải pháp hạ tầng CNTT toàn diện, giúp doanh nghiệp vận hành hiệu quả và phát triển bền vững.",
     primaryCtaLabel: "Nhận tư vấn giải pháp",
     primaryCtaHref: "/lien-he",
     secondaryCtaLabel: "Khám phá dịch vụ",
@@ -21,7 +21,7 @@ export const defaultAboutPage = {
     capabilitiesEyebrow: "Năng lực cốt lõi",
     capabilitiesTitle: "Từ thiết bị, dịch vụ kỹ thuật đến hạ tầng công nghệ tổng thể",
     capabilitiesDescription:
-      "HPT TECH tập trung vào khả năng triển khai thực tế cho môi trường doanh nghiệp, trường học, bệnh viện và tổ chức.",
+      "VTECH GROUP tập trung vào khả năng triển khai thực tế cho môi trường doanh nghiệp, trường học, bệnh viện và tổ chức.",
     processEyebrow: "Quy trình triển khai",
     processTitle: "Một quy trình rõ ràng để giảm rủi ro khi triển khai",
     processDescription: "Mỗi bước được chuẩn hóa để khách hàng nắm được phạm vi, tiến độ và trách nhiệm kỹ thuật.",
@@ -31,7 +31,7 @@ export const defaultAboutPage = {
     advantagesEyebrow: "Năng lực cạnh tranh",
     advantagesTitle: "Điểm khác biệt nằm ở khả năng tư vấn và triển khai trọn gói",
     advantagesDescription:
-      "HPT TECH không chỉ bán thiết bị, mà hỗ trợ doanh nghiệp chọn đúng giải pháp và vận hành ổn định.",
+      "VTECH GROUP không chỉ bán thiết bị, mà hỗ trợ doanh nghiệp chọn đúng giải pháp và vận hành ổn định.",
     caseStudiesEyebrow: "Dự án & khách hàng tiêu biểu",
     caseStudiesTitle: "Kinh nghiệm triển khai trong nhiều môi trường vận hành",
     caseStudiesDescription: "Các nhóm dự án có thể được mở rộng từ Payload khi HPT cập nhật case study thực tế.",
@@ -124,7 +124,7 @@ export const defaultAboutPage = {
   ],
   cta: {
     title: "Bạn đang tìm kiếm giải pháp công nghệ cho doanh nghiệp?",
-    description: "HPT TECH sẵn sàng khảo sát nhu cầu và đề xuất phương án triển khai phù hợp.",
+    description: "VTECH GROUP sẵn sàng khảo sát nhu cầu và đề xuất phương án triển khai phù hợp.",
     primaryCtaLabel: "Liên hệ tư vấn",
     primaryCtaHref: "/lien-he",
     secondaryCtaLabel: "Gọi ngay",

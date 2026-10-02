@@ -138,7 +138,7 @@ export default function ProductComparisonTable({ products, zaloHref, onCompare }
           </div>
 
           <p className="mt-4 text-xs leading-5 text-slate-500">
-            Giá trên đã bao gồm VAT. Giá và tồn kho có thể thay đổi theo thời điểm, đội ngũ HPT Tech sẽ xác nhận khi lập báo giá.
+            Giá trên đã bao gồm VAT. Giá và tồn kho có thể thay đổi theo thời điểm, đội ngũ Vtech Group sẽ xác nhận khi lập báo giá.
           </p>
         </>
       ) : (

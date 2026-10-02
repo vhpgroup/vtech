@@ -206,7 +206,7 @@ function CartDrawer() {
               <strong className="text-lg text-slate-950">{totalLabel}</strong>
             </div>
             {requiresPriceConfirmation ? (
-              <p className="mt-2 text-xs leading-5 text-slate-500">Có sản phẩm cần xác nhận giá. Nhân viên HPT Tech sẽ liên hệ trước khi xử lý đơn.</p>
+              <p className="mt-2 text-xs leading-5 text-slate-500">Có sản phẩm cần xác nhận giá. Nhân viên Vtech Group sẽ liên hệ trước khi xử lý đơn.</p>
             ) : null}
             <p className="mt-2 text-xs leading-5 text-slate-500">Phí vận chuyển/lắp đặt sẽ được xác nhận sau.</p>
           </div>

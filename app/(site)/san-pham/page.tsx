@@ -35,7 +35,7 @@ export async function generateMetadata({ searchParams }: ProductsPageProps): Pro
     const canonicalSlug = leaf?.slug || category;
     return pageMetadata({
       title: `${name} chính hãng, giá tốt`,
-      description: `${name} chính hãng tại HPT Tech — báo giá nhanh, xuất hóa đơn VAT, giao hàng toàn quốc. Tư vấn kỹ thuật tận nơi cho doanh nghiệp.`,
+      description: `${name} chính hãng tại Vtech Group — báo giá nhanh, xuất hóa đơn VAT, giao hàng toàn quốc. Tư vấn kỹ thuật tận nơi cho doanh nghiệp.`,
       path: `/${encodeURIComponent(canonicalSlug)}`,
     });
   }
@@ -43,7 +43,7 @@ export async function generateMetadata({ searchParams }: ProductsPageProps): Pro
   if (search) {
     return pageMetadata({
       title: `Kết quả tìm kiếm: ${search}`,
-      description: "Kết quả tìm kiếm sản phẩm chính hãng tại HPT Tech.",
+      description: "Kết quả tìm kiếm sản phẩm chính hãng tại Vtech Group.",
       path: "/san-pham",
     });
   }
@@ -51,7 +51,7 @@ export async function generateMetadata({ searchParams }: ProductsPageProps): Pro
   return pageMetadata({
     title: "Sản phẩm chính hãng cho doanh nghiệp",
     description:
-      "Máy scan, máy in, máy photocopy, mực in, laptop, PC – máy chủ, thiết bị mạng và phần mềm bản quyền chính hãng tại HPT Tech. Tư vấn cấu hình, báo giá nhanh, xuất hóa đơn VAT, giao toàn quốc.",
+      "Máy scan, máy in, máy photocopy, mực in, laptop, PC – máy chủ, thiết bị mạng và phần mềm bản quyền chính hãng tại Vtech Group. Tư vấn cấu hình, báo giá nhanh, xuất hóa đơn VAT, giao toàn quốc.",
     path: "/san-pham",
   });
 }
@@ -165,7 +165,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
       />
 
       <h1 className="sr-only">
-        {heading} - Máy scan, máy in &amp; thiết bị văn phòng | HPT Tech
+        {heading} - Máy scan, máy in &amp; thiết bị văn phòng | Vtech Group
       </h1>
 
       {/* CategoryLandingClient dùng useSearchParams → PHẢI bọc Suspense. */}

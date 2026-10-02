@@ -95,7 +95,7 @@ export function BrandCertificationsPage({ certifications, settings }: Props) {
             Đối tác ủy quyền chính hãng của các thương hiệu hàng đầu
           </h1>
           <p className="mt-5 max-w-2xl text-base leading-7 text-primary-50 md:text-lg">
-            HPT Tech là nhà phân phối và đối tác ủy quyền chính thức của nhiều thương hiệu thiết bị văn phòng,
+            Vtech Group là nhà phân phối và đối tác ủy quyền chính thức của nhiều thương hiệu thiết bị văn phòng,
             máy scan và giải pháp số hóa. Mỗi giấy chứng nhận là cam kết hàng chính hãng 100%, bảo hành chuẩn hãng
             và hóa đơn VAT đầy đủ.
           </p>
@@ -141,7 +141,7 @@ export function BrandCertificationsPage({ certifications, settings }: Props) {
             Giấy chứng nhận ủy quyền chính hãng
           </h2>
           <p className="mt-3 text-[15px] leading-7 text-ink/70">
-            Các chứng nhận do chính hãng cấp trực tiếp cho Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT.
+            Các chứng nhận do chính hãng cấp trực tiếp cho Công ty TNHH Vtech Group.
             Bấm vào từng mục để xem chi tiết.
           </p>
         </div>
@@ -192,7 +192,7 @@ export function BrandCertificationsPage({ certifications, settings }: Props) {
 
       <section className="mx-auto max-w-[1280px] px-6 pt-14 md:px-10">
         <div className="mb-8 max-w-2xl">
-          <p className="text-sm font-bold uppercase tracking-wider text-primary-600">Cam kết HPT Tech</p>
+          <p className="text-sm font-bold uppercase tracking-wider text-primary-600">Cam kết Vtech Group</p>
           <h2 className="mt-2 text-2xl font-extrabold tracking-tight text-primary-800 md:text-3xl">
             Quyền lợi khi mua hàng chính hãng tại HPT
           </h2>
@@ -233,7 +233,7 @@ export function BrandCertificationsPage({ certifications, settings }: Props) {
               Cần tư vấn thiết bị chính hãng cho doanh nghiệp?
             </h2>
             <p className="mt-2 text-primary-50">
-              Đội ngũ HPT Tech hỗ trợ chọn cấu hình, báo giá dự án và xuất hóa đơn VAT nhanh chóng.
+              Đội ngũ Vtech Group hỗ trợ chọn cấu hình, báo giá dự án và xuất hóa đơn VAT nhanh chóng.
             </p>
           </div>
           <div className="flex shrink-0 flex-wrap gap-3">

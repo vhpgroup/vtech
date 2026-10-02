@@ -7,7 +7,7 @@ import { phoneHref } from "@/lib/site-settings";
 export const metadata = pageMetadata({
   title: "Điều khoản sử dụng",
   description:
-    "Điều khoản và điều kiện sử dụng website hpttech.vn của HPT Tech: quyền và nghĩa vụ của khách hàng và HPT Tech, đặt hàng, báo giá, thanh toán, bảo hành, sở hữu trí tuệ và giải quyết tranh chấp.",
+    "Điều khoản và điều kiện sử dụng website hpttech.vn của Vtech Group: quyền và nghĩa vụ của khách hàng và Vtech Group, đặt hàng, báo giá, thanh toán, bảo hành, sở hữu trí tuệ và giải quyết tranh chấp.",
   path: "/dieu-khoan-su-dung",
 });
 
@@ -19,7 +19,7 @@ const termsSections = [
   { id: "doi-tuong-va-pham-vi-ap-dung", number: "2", title: "Đối tượng và phạm vi áp dụng" },
   { id: "tai-khoan-va-thong-tin-khach-hang", number: "3", title: "Tài khoản và thông tin khách hàng" },
   { id: "quyen-va-nghia-vu-cua-khach-hang", number: "4", title: "Quyền và nghĩa vụ của khách hàng" },
-  { id: "quyen-va-trach-nhiem-cua-hpt-tech", number: "5", title: "Quyền và trách nhiệm của HPT Tech" },
+  { id: "quyen-va-trach-nhiem-cua-hpt-tech", number: "5", title: "Quyền và trách nhiệm của Vtech Group" },
   { id: "gia-bao-gia-va-thanh-toan", number: "6", title: "Giá, báo giá và thanh toán" },
   { id: "dat-hang-va-xac-nhan-don-hang", number: "7", title: "Đặt hàng và xác nhận đơn hàng" },
   { id: "giao-hang-bao-hanh-va-doi-tra", number: "8", title: "Giao hàng, bảo hành và đổi trả" },
@@ -69,14 +69,14 @@ export default function TermsOfUsePage() {
 
             <p className="mx-auto mt-5 max-w-4xl text-center text-slate-600">
               Điều khoản sử dụng này quy định các điều kiện áp dụng khi Quý khách truy cập và sử dụng
-              website hpttech.vn của HPT Tech. Khi tiếp tục truy cập, đặt hàng hoặc sử dụng dịch vụ,
+              website hpttech.vn của Vtech Group. Khi tiếp tục truy cập, đặt hàng hoặc sử dụng dịch vụ,
               Quý khách xác nhận đã đọc, hiểu và đồng ý tuân thủ toàn bộ nội dung dưới đây.
             </p>
 
             <PolicySection id="gioi-thieu-chung" number="1" title="Giới thiệu chung">
               <p>
                 Website hpttech.vn được vận hành bởi Công ty TNHH Đầu tư Xây dựng và Thiết bị Công
-                nghệ HPT (&quot;HPT Tech&quot;, &quot;chúng tôi&quot;) - đơn vị cung cấp thiết bị CNTT, máy scan, máy in,
+                nghệ HPT (&quot;Vtech Group&quot;, &quot;chúng tôi&quot;) - đơn vị cung cấp thiết bị CNTT, máy scan, máy in,
                 máy photocopy, thiết bị văn phòng và giải pháp số hóa tài liệu cho doanh nghiệp, tổ
                 chức và cơ quan nhà nước.
               </p>
@@ -96,7 +96,7 @@ export default function TermsOfUsePage() {
                 items={[
                   "Có đầy đủ năng lực hành vi dân sự để thực hiện giao dịch theo quy định pháp luật.",
                   "Cung cấp thông tin chính xác, trung thực khi liên hệ, đăng ký hoặc đặt hàng.",
-                  "Không sử dụng website vào mục đích trái pháp luật, gian lận hoặc gây thiệt hại cho HPT Tech và bên thứ ba.",
+                  "Không sử dụng website vào mục đích trái pháp luật, gian lận hoặc gây thiệt hại cho Vtech Group và bên thứ ba.",
                   "Không can thiệp, dò quét, phát tán mã độc hoặc thu thập dữ liệu trái phép từ hệ thống.",
                 ]}
               />
@@ -113,7 +113,7 @@ export default function TermsOfUsePage() {
                 <Link className="font-semibold text-primary-700 hover:underline" href="/chinh-sach-bao-mat">
                   Chính sách bảo mật thông tin
                 </Link>{" "}
-                của HPT Tech.
+                của Vtech Group.
               </p>
             </PolicySection>
 
@@ -123,7 +123,7 @@ export default function TermsOfUsePage() {
                 items={[
                   "Được cung cấp thông tin đầy đủ, chính xác về sản phẩm, giá, chính sách bảo hành trước khi mua.",
                   "Được tư vấn kỹ thuật, báo giá và hỗ trợ trong suốt quá trình mua và sử dụng sản phẩm.",
-                  "Được hưởng quyền lợi bảo hành, đổi trả theo chính sách công bố của HPT Tech.",
+                  "Được hưởng quyền lợi bảo hành, đổi trả theo chính sách công bố của Vtech Group.",
                   "Thanh toán đầy đủ, đúng hạn giá trị đơn hàng đã xác nhận.",
                   "Kiểm tra kỹ thông tin, số lượng và tình trạng sản phẩm khi nhận hàng.",
                   "Tuân thủ hướng dẫn sử dụng, lắp đặt để bảo đảm điều kiện bảo hành.",
@@ -131,7 +131,7 @@ export default function TermsOfUsePage() {
               />
             </PolicySection>
 
-            <PolicySection id="quyen-va-trach-nhiem-cua-hpt-tech" number="5" title="Quyền và trách nhiệm của HPT Tech">
+            <PolicySection id="quyen-va-trach-nhiem-cua-hpt-tech" number="5" title="Quyền và trách nhiệm của Vtech Group">
               <BulletList
                 items={[
                   "Cung cấp sản phẩm chính hãng 100%, đầy đủ hóa đơn, chứng từ và xuất hóa đơn VAT theo yêu cầu.",
@@ -147,11 +147,11 @@ export default function TermsOfUsePage() {
               <p>
                 Giá sản phẩm được niêm yết bằng Đồng Việt Nam (VNĐ). Tùy thông tin hiển thị tại từng
                 sản phẩm, giá có thể đã hoặc chưa bao gồm thuế GTGT. Giá bán, VAT, phí vận chuyển và
-                phương thức thanh toán luôn được xác nhận lại với khách hàng trước khi HPT Tech thực
+                phương thức thanh toán luôn được xác nhận lại với khách hàng trước khi Vtech Group thực
                 hiện đơn hàng.
               </p>
               <p>
-                Với đơn hàng doanh nghiệp và dự án, HPT Tech hỗ trợ báo giá riêng, hợp đồng và công
+                Với đơn hàng doanh nghiệp và dự án, Vtech Group hỗ trợ báo giá riêng, hợp đồng và công
                 nợ theo thỏa thuận. Trường hợp giá hiển thị sai do lỗi hệ thống, hai bên sẽ thống
                 nhất lại mức giá cuối cùng trước khi xử lý đơn hàng. Chi tiết quy trình xem tại{" "}
                 <Link className="font-semibold text-primary-700 hover:underline" href="/huong-dan-mua-hang">
@@ -164,11 +164,11 @@ export default function TermsOfUsePage() {
             <PolicySection id="dat-hang-va-xac-nhan-don-hang" number="7" title="Đặt hàng và xác nhận đơn hàng">
               <p>
                 Quý khách có thể đặt hàng trực tiếp trên website, qua hotline hoặc Zalo. Đơn hàng chỉ
-                được coi là xác lập khi HPT Tech xác nhận với Quý khách về sản phẩm, số lượng, giá,
+                được coi là xác lập khi Vtech Group xác nhận với Quý khách về sản phẩm, số lượng, giá,
                 VAT, phương thức thanh toán và thời gian giao hàng.
               </p>
               <p>
-                HPT Tech có quyền liên hệ để xác minh thông tin trước khi xử lý và có thể từ chối các
+                Vtech Group có quyền liên hệ để xác minh thông tin trước khi xử lý và có thể từ chối các
                 đơn hàng không đáp ứng điều kiện nêu tại các mục trên.
               </p>
             </PolicySection>
@@ -176,7 +176,7 @@ export default function TermsOfUsePage() {
             <PolicySection id="giao-hang-bao-hanh-va-doi-tra" number="8" title="Giao hàng, bảo hành và đổi trả">
               <p>
                 Chính sách giao nhận, bảo hành và đổi trả áp dụng theo các trang chính sách chuyên
-                biệt của HPT Tech:
+                biệt của Vtech Group:
               </p>
               <BulletList
                 items={[
@@ -203,23 +203,23 @@ export default function TermsOfUsePage() {
             <PolicySection id="quyen-so-huu-tri-tue" number="9" title="Quyền sở hữu trí tuệ">
               <p>
                 Toàn bộ nội dung trên website - bao gồm logo, thương hiệu, hình ảnh, văn bản, thiết
-                kế giao diện, mã nguồn và dữ liệu - thuộc quyền sở hữu của HPT Tech hoặc các đối tác
+                kế giao diện, mã nguồn và dữ liệu - thuộc quyền sở hữu của Vtech Group hoặc các đối tác
                 cấp quyền và được bảo hộ theo pháp luật về sở hữu trí tuệ.
               </p>
               <p>
                 Nghiêm cấm sao chép, tái bản, phân phối, sửa đổi hoặc sử dụng cho mục đích thương mại
-                khi chưa có sự đồng ý bằng văn bản của HPT Tech.
+                khi chưa có sự đồng ý bằng văn bản của Vtech Group.
               </p>
             </PolicySection>
 
             <PolicySection id="gioi-han-trach-nhiem-va-bat-kha-khang" number="10" title="Giới hạn trách nhiệm và bất khả kháng">
               <p>
-                HPT Tech nỗ lực bảo đảm website hoạt động ổn định nhưng không cam kết website luôn
+                Vtech Group nỗ lực bảo đảm website hoạt động ổn định nhưng không cam kết website luôn
                 liền mạch, không lỗi hoặc không bị gián đoạn do bảo trì, sự cố kỹ thuật hoặc yếu tố
                 bất khả kháng (thiên tai, hỏa hoạn, mất điện, tấn công mạng...).
               </p>
               <p>
-                Trong phạm vi pháp luật cho phép, HPT Tech không chịu trách nhiệm đối với các thiệt
+                Trong phạm vi pháp luật cho phép, Vtech Group không chịu trách nhiệm đối với các thiệt
                 hại gián tiếp phát sinh từ việc sử dụng hoặc không thể sử dụng website, ngoài các
                 nghĩa vụ theo hợp đồng mua bán đã được hai bên xác nhận.
               </p>
@@ -239,7 +239,7 @@ export default function TermsOfUsePage() {
 
             <PolicySection id="sua-doi-dieu-khoan" number="12" title="Sửa đổi điều khoản">
               <p>
-                HPT Tech có quyền cập nhật, sửa đổi hoặc bổ sung Điều khoản sử dụng này vào bất kỳ
+                Vtech Group có quyền cập nhật, sửa đổi hoặc bổ sung Điều khoản sử dụng này vào bất kỳ
                 thời điểm nào nhằm phù hợp với hoạt động kinh doanh và quy định pháp luật. Các thay
                 đổi có hiệu lực ngay khi được đăng tải trên website.
               </p>
@@ -252,7 +252,7 @@ export default function TermsOfUsePage() {
             <PolicySection id="thong-tin-lien-he" number="13" title="Thông tin liên hệ">
               <div className="border border-slate-300 bg-slate-50 p-5 sm:p-6">
                 <h3 className="font-black uppercase leading-7 text-slate-900">
-                  Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT
+                  Công ty TNHH Vtech Group
                 </h3>
                 <div className="mt-5 grid gap-4 md:grid-cols-2">
                   <ContactItem icon={MapPin} label="Địa chỉ" value={address} />

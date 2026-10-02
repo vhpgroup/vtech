@@ -60,9 +60,9 @@ function metaTitle(data: ExtractedProductData, kind: string) {
   const name = productDisplayName(data.title);
   const normalizedName = normalize(name);
   const prefix = normalizedName.includes(normalize(kind)) ? name : `${kind} ${name}`;
-  const base = `${prefix} chính hãng | HPT Tech`;
+  const base = `${prefix} chính hãng | Vtech Group`;
   if (base.length >= 55 && base.length <= 65) return base;
-  const withQuote = `${prefix} | Báo giá HPT Tech`;
+  const withQuote = `${prefix} | Báo giá Vtech Group`;
   if (withQuote.length <= 65) return withQuote;
   const compact = `${prefix} chính hãng`;
   if (compact.length <= 65) return compact;
@@ -71,7 +71,7 @@ function metaTitle(data: ExtractedProductData, kind: string) {
 
 function metaDescription(data: ExtractedProductData, brandName: string) {
   const name = productDisplayName(data.title);
-  const description = `${name} ${brandName} chính hãng, ${titleBenefit(data)}. Xem thông số, hình ảnh và nhận tư vấn báo giá tại HPT Tech.`;
+  const description = `${name} ${brandName} chính hãng, ${titleBenefit(data)}. Xem thông số, hình ảnh và nhận tư vấn báo giá tại Vtech Group.`;
   return truncate(description, 160);
 }
 

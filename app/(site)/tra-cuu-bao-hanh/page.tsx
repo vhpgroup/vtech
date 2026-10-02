@@ -17,7 +17,7 @@ export const dynamic = "force-dynamic";
 export const metadata = pageMetadata({
   title: "Tra cứu bảo hành",
   description:
-    "Tra cứu thông tin bảo hành thiết bị HPT Tech theo số serial, tên khách hàng hoặc mã E-HSMT (gói thầu). Xem thời hạn và trạng thái bảo hành trực tuyến.",
+    "Tra cứu thông tin bảo hành thiết bị Vtech Group theo số serial, tên khách hàng hoặc mã E-HSMT (gói thầu). Xem thời hạn và trạng thái bảo hành trực tuyến.",
   path: "/tra-cuu-bao-hanh",
 });
 
@@ -202,7 +202,7 @@ export default async function WarrantyLookupPage({ searchParams }: WarrantyLooku
               </h2>
               <p className="mx-auto mt-4 max-w-3xl text-center text-slate-600">
                 Nhập số serial trên tem thiết bị, tên khách hàng/đơn vị hoặc mã E-HSMT của gói thầu
-                để xem thời hạn và trạng thái bảo hành do HPT Tech cung cấp.
+                để xem thời hạn và trạng thái bảo hành do Vtech Group cung cấp.
               </p>
 
               <form method="get" action="/tra-cuu-bao-hanh" className="mx-auto mt-7 max-w-3xl">

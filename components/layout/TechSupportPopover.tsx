@@ -65,7 +65,7 @@ export default function TechSupportPopover() {
             </span>
             <div className="topbar-support-head-copy">
               <strong>Hỗ trợ kỹ thuật</strong>
-              <small>Gọi trực tiếp đội kỹ thuật HPT Tech</small>
+              <small>Gọi trực tiếp đội kỹ thuật Vtech Group</small>
             </div>
           </div>
 

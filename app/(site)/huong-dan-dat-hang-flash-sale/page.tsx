@@ -5,7 +5,7 @@ const title = "Hướng dẫn đặt hàng Flash Sale";
 
 export const metadata = pageMetadata({
   title,
-  description: "Hướng dẫn đặt hàng Flash Sale tại HPT Tech.",
+  description: "Hướng dẫn đặt hàng Flash Sale tại Vtech Group.",
   path: "/huong-dan-dat-hang-flash-sale",
 });
 

@@ -8,7 +8,7 @@ import { phoneHref } from "@/lib/site-settings";
 export const metadata = pageMetadata({
   title: "Chính sách bảo hành đổi trả",
   description:
-    "Chính sách đổi trả, bảo hành và thông tin Trung tâm bảo hành HPT Tech dành cho khách hàng cá nhân và doanh nghiệp.",
+    "Chính sách đổi trả, bảo hành và thông tin Trung tâm bảo hành Vtech Group dành cho khách hàng cá nhân và doanh nghiệp.",
   path: "/chinh-sach-bao-hanh-doi-tra",
 });
 
@@ -48,7 +48,7 @@ export default function WarrantyCenterPage() {
             </h2>
 
             <p className="mx-auto mt-5 max-w-4xl text-center text-slate-600">
-              HPT Tech cam kết cung cấp sản phẩm chính hãng cùng dịch vụ bảo hành chuyên nghiệp,
+              Vtech Group cam kết cung cấp sản phẩm chính hãng cùng dịch vụ bảo hành chuyên nghiệp,
               nhanh chóng và minh bạch nhằm bảo đảm quyền lợi cao nhất cho khách hàng.
             </p>
 
@@ -59,7 +59,7 @@ export default function WarrantyCenterPage() {
                 <Subheading>1. Đổi mới sản phẩm lỗi do nhà sản xuất</Subheading>
                 <BulletList
                   items={[
-                    "Sản phẩm mới mua trong thời gian quy định của từng mặt hàng, nếu phát sinh lỗi kỹ thuật được xác nhận từ nhà sản xuất sẽ được đổi mới theo chính sách của HPT Tech và hãng sản xuất.",
+                    "Sản phẩm mới mua trong thời gian quy định của từng mặt hàng, nếu phát sinh lỗi kỹ thuật được xác nhận từ nhà sản xuất sẽ được đổi mới theo chính sách của Vtech Group và hãng sản xuất.",
                     "Các trường hợp đổi mới phải đáp ứng đầy đủ điều kiện về tem nhãn, phụ kiện, bao bì và chứng từ mua hàng.",
                   ]}
                 />
@@ -69,7 +69,7 @@ export default function WarrantyCenterPage() {
                   items={[
                     "Sản phẩm không bị tác động vật lý như rơi vỡ, móp méo, trầy xước nghiêm trọng hoặc có dấu hiệu sử dụng sai quy cách.",
                     "Còn đầy đủ hộp, phụ kiện, tài liệu hướng dẫn và phiếu bảo hành nếu có.",
-                    "Có hóa đơn hoặc chứng từ mua hàng hợp lệ từ HPT Tech.",
+                    "Có hóa đơn hoặc chứng từ mua hàng hợp lệ từ Vtech Group.",
                     "Các trường hợp không đủ điều kiện đổi mới sẽ được áp dụng theo chính sách bảo hành của hãng sản xuất.",
                   ]}
                 />
@@ -78,10 +78,10 @@ export default function WarrantyCenterPage() {
               <DocumentSection id="bao-hanh-chung" title="II. Chính sách bảo hành chung">
                 <BulletList
                   items={[
-                    "Tất cả sản phẩm do HPT Tech cung cấp đều được bảo hành theo tiêu chuẩn của hãng sản xuất hoặc nhà phân phối chính thức tại Việt Nam.",
+                    "Tất cả sản phẩm do Vtech Group cung cấp đều được bảo hành theo tiêu chuẩn của hãng sản xuất hoặc nhà phân phối chính thức tại Việt Nam.",
                     "Thời gian xử lý bảo hành thông thường từ 07 - 15 ngày làm việc, tùy từng hãng và tình trạng sản phẩm.",
                     "Trường hợp cần gửi hãng kiểm tra chuyên sâu, thời gian xử lý sẽ được thông báo cụ thể tới khách hàng.",
-                    "HPT Tech hỗ trợ tiếp nhận, kiểm tra và tư vấn miễn phí các trường hợp sản phẩm gặp sự cố.",
+                    "Vtech Group hỗ trợ tiếp nhận, kiểm tra và tư vấn miễn phí các trường hợp sản phẩm gặp sự cố.",
                   ]}
                 />
               </DocumentSection>
@@ -100,7 +100,7 @@ export default function WarrantyCenterPage() {
                 <BulletList
                   items={[
                     "Áp dụng theo từng nhóm sản phẩm và khu vực địa lý.",
-                    "Hỗ trợ kỹ thuật tận nơi đối với các dự án, hệ thống CNTT, camera giám sát, máy scan, máy in và thiết bị văn phòng do HPT Tech triển khai.",
+                    "Hỗ trợ kỹ thuật tận nơi đối với các dự án, hệ thống CNTT, camera giám sát, máy scan, máy in và thiết bị văn phòng do Vtech Group triển khai.",
                     "Không bảo hành dữ liệu, phần mềm hoặc các lỗi phát sinh từ hệ điều hành, virus và phần mềm bên thứ ba.",
                   ]}
                 />
@@ -111,8 +111,8 @@ export default function WarrantyCenterPage() {
                   items={[
                     "Khách hàng có thể gửi sản phẩm qua đơn vị vận chuyển hoặc chuyển phát nhanh.",
                     "Chi phí gửi sản phẩm đến trung tâm bảo hành do khách hàng thanh toán.",
-                    "Chi phí gửi trả sau bảo hành sẽ được HPT Tech hỗ trợ hoặc thỏa thuận tùy từng trường hợp.",
-                    "Vui lòng liên hệ HPT Tech trước khi gửi để được xác nhận thông tin tiếp nhận và hướng dẫn đóng gói.",
+                    "Chi phí gửi trả sau bảo hành sẽ được Vtech Group hỗ trợ hoặc thỏa thuận tùy từng trường hợp.",
+                    "Vui lòng liên hệ Vtech Group trước khi gửi để được xác nhận thông tin tiếp nhận và hướng dẫn đóng gói.",
                   ]}
                 />
               </DocumentSection>
@@ -132,12 +132,12 @@ export default function WarrantyCenterPage() {
 
             <section id="thong-tin-lien-he" className="mt-14 scroll-mt-5" aria-labelledby="contact-title">
               <DocumentTitle id="contact-title">
-                B. Trung tâm bảo hành và dịch vụ khách hàng HPT Tech
+                B. Trung tâm bảo hành và dịch vụ khách hàng Vtech Group
               </DocumentTitle>
 
               <div className="mt-7 border border-slate-300 bg-slate-50 p-5 sm:p-6">
                 <h3 className="text-lg font-black uppercase leading-7 text-slate-900">
-                  Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT
+                  Công ty TNHH Vtech Group
                 </h3>
 
                 <div className="mt-5 grid gap-4 md:grid-cols-2">
@@ -163,10 +163,10 @@ export default function WarrantyCenterPage() {
               <h3 className="mt-8 text-xl font-bold uppercase text-slate-900">Hỗ trợ khách hàng</h3>
               <p className="mt-4">
                 Mọi yêu cầu bảo hành, hỗ trợ kỹ thuật, góp ý hoặc khiếu nại về sản phẩm và dịch vụ,
-                Quý khách vui lòng liên hệ HPT Tech qua hotline hoặc email để được hỗ trợ nhanh nhất.
+                Quý khách vui lòng liên hệ Vtech Group qua hotline hoặc email để được hỗ trợ nhanh nhất.
               </p>
               <p className="mt-4 font-semibold">
-                Xin chân thành cảm ơn Quý khách đã tin tưởng và sử dụng sản phẩm, dịch vụ của HPT Tech.
+                Xin chân thành cảm ơn Quý khách đã tin tưởng và sử dụng sản phẩm, dịch vụ của Vtech Group.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3 border-t border-slate-200 pt-6">
@@ -178,7 +178,7 @@ export default function WarrantyCenterPage() {
                   Gọi {hotline}
                 </a>
                 <a
-                  href={`mailto:${email}?subject=${encodeURIComponent("Yêu cầu bảo hành HPT Tech")}`}
+                  href={`mailto:${email}?subject=${encodeURIComponent("Yêu cầu bảo hành Vtech Group")}`}
                   className="inline-flex items-center gap-2 border border-slate-300 bg-white px-5 py-3 font-semibold text-slate-800 transition hover:border-primary-400 hover:text-primary-700"
                 >
                   <Mail size={18} />

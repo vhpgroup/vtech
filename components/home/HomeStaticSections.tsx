@@ -19,7 +19,7 @@ const TRUST_ITEMS = [
 
 export function TrustStrip() {
   return (
-    <section className="trust-strip" aria-label="Cam kết dịch vụ HPT Tech">
+    <section className="trust-strip" aria-label="Cam kết dịch vụ Vtech Group">
       {TRUST_ITEMS.map((item) => (
         <article className="trust-item" key={item.icon}>
           <Image
@@ -99,12 +99,12 @@ export default function HomeStaticSections({
         <div className="solution-intro">
           <h2>Giải pháp doanh nghiệp</h2>
           <p>
-            HPT Tech cung cấp các giải pháp công nghệ toàn diện, giúp doanh nghiệp tối ưu vận hành
+            Vtech Group cung cấp các giải pháp công nghệ toàn diện, giúp doanh nghiệp tối ưu vận hành
             và bứt phá thành công.
           </p>
-          <a href="https://hpttech.vn/aboutus/" target="_blank" rel="noreferrer">
+          <Link href="/giai-phap">
             Xem tất cả giải pháp <ArrowRight size={16} />
-          </a>
+          </Link>
         </div>
 
         <div className="solution-grid" id="solutionGrid">

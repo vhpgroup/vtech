@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: RecruitmentDetailPageProps) {
 
   return pageMetadata({
     title: job?.title || "Vị trí tuyển dụng",
-    description: job?.summary || "Thông tin vị trí tuyển dụng tại HPT Tech.",
+    description: job?.summary || "Thông tin vị trí tuyển dụng tại Vtech Group.",
     path: `/tuyen-dung/${slug}`,
     image: job?.image,
     type: "article",

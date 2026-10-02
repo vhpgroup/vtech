@@ -5,7 +5,7 @@ const title = "Chính sách mua trả góp";
 
 export const metadata = pageMetadata({
   title,
-  description: "Chính sách mua trả góp tại HPT Tech.",
+  description: "Chính sách mua trả góp tại Vtech Group.",
   path: "/chinh-sach-mua-tra-gop",
 });
 

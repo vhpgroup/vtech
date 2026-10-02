@@ -19,7 +19,7 @@ export default function AIRecommendationSummary({ products }: AIRecommendationSu
         </span>
         <div>
           <h2 className="text-lg font-bold text-slate-950">Tóm tắt đề xuất</h2>
-          <p className="text-sm text-slate-600">Kết quả demo dựa trên dữ liệu sản phẩm HPT Tech.</p>
+          <p className="text-sm text-slate-600">Kết quả demo dựa trên dữ liệu sản phẩm Vtech Group.</p>
         </div>
       </div>
 

@@ -341,7 +341,7 @@ export async function createProductSearchPlanWithOpenAI(question: string): Promi
   };
 
   const prompt = [
-    "You are an office-equipment product search planner for HPT Tech.",
+    "You are an office-equipment product search planner for Vtech Group.",
     "Parse the Vietnamese user requirement into structured intent.",
     "Then suggest 5-10 concrete product models that are likely to fit the requirement. Do not use any hard-coded list; reason from the user's context and general product knowledge.",
     "Candidate models must satisfy hard constraints from the user, especially budget range, connectivity, paper size, duplex/ADF, and speed. If a model likely misses a hard constraint, do not include it.",
@@ -571,7 +571,7 @@ export async function recommendProductsWithOpenAI(
     : "No Search Provider candidates are available. You may recommend products from general product knowledge, but never claim HPT stock or HPT price.";
 
   const prompt = [
-    "Bạn là chuyên gia tư vấn thiết bị văn phòng cho HPT Tech.",
+    "Bạn là chuyên gia tư vấn thiết bị văn phòng cho Vtech Group.",
     "Nhiệm vụ: đọc nhu cầu người dùng, bóc tách intent, rồi đề xuất đúng khoảng 5 sản phẩm phù hợp nhất theo kiến thức sản phẩm chung.",
     "Bạn được quyền đề xuất sản phẩm dù HPT chưa có trong database. Không được khẳng định tồn kho, giá HPT hoặc trạng thái có hàng tại HPT.",
     "Trả về duy nhất JSON hợp lệ theo schema:",

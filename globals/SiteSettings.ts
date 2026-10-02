@@ -36,7 +36,7 @@ export const SiteSettings: GlobalConfig = {
     afterChange: [revalidateGlobal],
   },
   fields: [
-    { name: "companyName", label: "Tên công ty", type: "text", defaultValue: "HPT Tech" },
+    { name: "companyName", label: "Tên công ty", type: "text", defaultValue: defaultSiteSettings.companyName },
     { name: "phone", label: "Số điện thoại", type: "text", defaultValue: "0918871414" },
     { name: "hotline", label: "Hotline", type: "text", defaultValue: "0918871414" },
     { name: "email", label: "Email", type: "text", defaultValue: "bach.pv@hpttech.vn" },
@@ -49,7 +49,7 @@ export const SiteSettings: GlobalConfig = {
     { name: "facebook", label: "Facebook", type: "text", defaultValue: "https://www.facebook.com/solarangelx9/" },
     { name: "zalo", label: "Zalo", type: "text", defaultValue: "https://zalo.me/0918871414" },
     { name: "youtube", label: "YouTube", type: "text" },
-    { name: "googleMapsTitle", label: "Tiêu đề Google Maps", type: "text", defaultValue: "Vị trí HPT Tech" },
+    { name: "googleMapsTitle", label: "Tiêu đề Google Maps", type: "text", defaultValue: defaultSiteSettings.googleMapsTitle },
     {
       name: "googleMapsEmbedUrl",
       label: "Google Maps Embed URL",

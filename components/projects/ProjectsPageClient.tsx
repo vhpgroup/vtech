@@ -322,7 +322,7 @@ export function ProjectsPageClient({
         <div className="absolute inset-y-0 right-0 hidden w-[58%] lg:block">
           <Image
             src="/assets/anhcongty/mattruoc.jpg"
-            alt="Mặt trước showroom HPT Tech"
+            alt="Mặt trước showroom Vtech Group"
             fill
             priority
             sizes="680px"
@@ -336,7 +336,7 @@ export function ProjectsPageClient({
             Dự án tiêu biểu đã triển khai cho khối Nhà nước, Tài chính, Ngân hàng và Doanh nghiệp lớn
           </h1>
           <p className="mt-5 max-w-2xl text-sm leading-7 text-primary-50/90 sm:text-base">
-            HPT Tech cung cấp thiết bị CNTT, máy scan, giải pháp số hóa tài liệu và hạ tầng công nghệ cho các đơn vị yêu cầu cao về tiến độ, bảo mật và năng lực triển khai.
+            Vtech Group cung cấp thiết bị CNTT, máy scan, giải pháp số hóa tài liệu và hạ tầng công nghệ cho các đơn vị yêu cầu cao về tiến độ, bảo mật và năng lực triển khai.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <a href="#project-list" className="inline-flex items-center gap-2 rounded-md bg-yellow-400 px-5 py-3 text-sm font-extrabold text-primary-900 transition hover:bg-yellow-300">
@@ -490,7 +490,7 @@ export function ProjectsPageClient({
       <section className="mt-10 overflow-hidden rounded-[28px] bg-primary-900 text-white shadow-[0_24px_70px_rgba(4,27,61,0.18)]">
         <div className="grid gap-8 p-6 sm:p-8 lg:grid-cols-[1fr_360px] lg:p-10">
           <div>
-            <p className="text-sm font-black">Cam kết từ HPT Tech</p>
+            <p className="text-sm font-black">Cam kết từ Vtech Group</p>
             <div className="mt-6 grid gap-5 sm:grid-cols-4">
               {[
                 { label: "Sản phẩm chính hãng, đầy đủ CQ, CO", icon: ShieldCheck },
@@ -508,7 +508,7 @@ export function ProjectsPageClient({
           <div className="rounded-2xl border border-white/15 bg-white/5 p-6">
             <h2 className="text-xl font-black leading-7">Bạn cần tư vấn giải pháp cho dự án của mình?</h2>
             <p className="mt-3 text-sm leading-6 text-primary-50/80">
-              Đội ngũ kỹ thuật của HPT Tech phối hợp khảo sát, tư vấn và cung cấp hồ sơ năng lực theo yêu cầu.
+              Đội ngũ kỹ thuật của Vtech Group phối hợp khảo sát, tư vấn và cung cấp hồ sơ năng lực theo yêu cầu.
             </p>
             <Link href="/lien-he" className="mt-5 inline-flex items-center gap-2 rounded-md bg-yellow-400 px-5 py-3 text-sm font-extrabold text-primary-900 transition hover:bg-yellow-300">
               Liên hệ ngay

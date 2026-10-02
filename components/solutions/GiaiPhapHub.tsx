@@ -181,7 +181,7 @@ export function GiaiPhapHub({ scan, solutions }: GiaiPhapHubProps) {
             Giải pháp số hóa theo ngành
           </h1>
           <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-700">
-            HPT Tech gom giải pháp máy scan, số hóa tài liệu và hạ tầng công nghệ theo đúng ngành, nhu cầu và thương hiệu để doanh nghiệp chọn nhanh cấu hình phù hợp.
+            Vtech Group gom giải pháp máy scan, số hóa tài liệu và hạ tầng công nghệ theo đúng ngành, nhu cầu và thương hiệu để doanh nghiệp chọn nhanh cấu hình phù hợp.
           </p>
           <div className="mt-7 flex flex-wrap gap-8">
             <Stat value={String(scanCount)} label="Trang máy scan" />
@@ -311,7 +311,7 @@ export function GiaiPhapHub({ scan, solutions }: GiaiPhapHubProps) {
           <CheckCircle2 size={24} className="text-primary-100" />
           <h2 className="mt-4 text-2xl font-extrabold">Chưa thấy ngành hoặc nhu cầu của bạn?</h2>
           <p className="mt-3 max-w-2xl text-primary-50">
-            HPT Tech tư vấn cấu hình thiết bị, hồ sơ dự án, VAT và phương án triển khai theo khối lượng tài liệu thực tế.
+            Vtech Group tư vấn cấu hình thiết bị, hồ sơ dự án, VAT và phương án triển khai theo khối lượng tài liệu thực tế.
           </p>
           <a href="tel:0918871414" className="mt-5 inline-flex h-12 items-center rounded-md bg-accent-500 px-5 text-sm font-bold text-white transition hover:bg-accent-600">
             Gọi hotline 0918871414

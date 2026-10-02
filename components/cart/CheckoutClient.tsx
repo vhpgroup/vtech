@@ -74,7 +74,7 @@ export default function CheckoutClient() {
           <CheckCircle2 className="mx-auto text-green-600" size={52} />
           <h1 className="mt-4 text-3xl font-bold text-slate-950">Đã tạo đơn hàng</h1>
           <p className="mt-3 text-slate-600">
-            Mã đơn <strong className="text-slate-950">{success.orderCode}</strong>. HPT Tech sẽ liên hệ xác nhận giá, vận chuyển và thời gian giao hàng.
+            Mã đơn <strong className="text-slate-950">{success.orderCode}</strong>. Vtech Group sẽ liên hệ xác nhận giá, vận chuyển và thời gian giao hàng.
           </p>
           <p className="mt-2 text-sm text-slate-500">Tổng hiển thị: {success.totalLabel}</p>
           <Link className="mt-6 inline-flex rounded-md bg-primary-700 px-5 py-3 text-sm font-semibold text-white hover:bg-primary-800" href="/san-pham">
@@ -98,7 +98,7 @@ export default function CheckoutClient() {
         <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-primary-700">Checkout</p>
         <h1 className="text-3xl font-bold text-slate-950 sm:text-4xl">Thanh toán</h1>
         <p className="mt-3 max-w-3xl text-base leading-7 text-slate-600">
-          Đặt hàng COD hoặc gửi thông tin để HPT Tech liên hệ xác nhận. Phí vận chuyển/lắp đặt sẽ được báo sau.
+          Đặt hàng COD hoặc gửi thông tin để Vtech Group liên hệ xác nhận. Phí vận chuyển/lắp đặt sẽ được báo sau.
         </p>
       </section>
 

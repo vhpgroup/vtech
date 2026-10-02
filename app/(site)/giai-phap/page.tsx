@@ -8,7 +8,7 @@ export const revalidate = 3600;
 export const metadata = pageMetadata({
   title: "Giải pháp số hóa theo ngành | Máy scan & thiết bị văn phòng",
   description:
-    "Trung tâm giải pháp HPT Tech: máy scan theo ngành, nhu cầu và thương hiệu; số hóa tài liệu, giải pháp CNTT cho cơ quan nhà nước, bệnh viện, trường học và doanh nghiệp.",
+    "Trung tâm giải pháp Vtech Group: máy scan theo ngành, nhu cầu và thương hiệu; số hóa tài liệu, giải pháp CNTT cho cơ quan nhà nước, bệnh viện, trường học và doanh nghiệp.",
   path: "/giai-phap",
 });
 

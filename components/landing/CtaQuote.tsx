@@ -70,7 +70,7 @@ export function CtaQuote({ industry, landingPath, products, title }: CtaQuotePro
           <p className="text-sm font-semibold uppercase tracking-[0.16em] text-primary-100">Báo giá dự án</p>
           <h2 className="mt-3 text-3xl font-bold leading-tight">Cần tư vấn cấu hình máy scan phù hợp?</h2>
           <p className="mt-4 max-w-xl text-base leading-7 text-primary-50">
-            HPT Tech hỗ trợ chọn model chính hãng, lên cấu hình theo khối lượng hồ sơ, xuất hóa đơn VAT và giao toàn quốc.
+            Vtech Group hỗ trợ chọn model chính hãng, lên cấu hình theo khối lượng hồ sơ, xuất hóa đơn VAT và giao toàn quốc.
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export function CtaQuote({ industry, landingPath, products, title }: CtaQuotePro
           </button>
           {state === "sent" ? (
             <p className="rounded-md bg-success/10 p-3 text-sm font-semibold text-success sm:col-span-2">
-              Đã gửi yêu cầu. Bộ phận kinh doanh HPT Tech sẽ liên hệ sớm.
+              Đã gửi yêu cầu. Bộ phận kinh doanh Vtech Group sẽ liên hệ sớm.
             </p>
           ) : null}
           {state === "error" ? (

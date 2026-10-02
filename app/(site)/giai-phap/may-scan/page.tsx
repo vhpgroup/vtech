@@ -10,7 +10,7 @@ export const revalidate = 3600;
 export const metadata = pageMetadata({
   title: "Giải pháp máy scan theo ngành, nhu cầu & thương hiệu",
   description:
-    "Tổng hợp máy scan HPT Tech theo ngành, theo nhu cầu như CCCD, A3, tốc độ cao và theo thương hiệu Fujitsu, Ricoh, Kodak Alaris, Canon, Epson. Tư vấn & báo giá.",
+    "Tổng hợp máy scan Vtech Group theo ngành, theo nhu cầu như CCCD, A3, tốc độ cao và theo thương hiệu Fujitsu, Ricoh, Kodak Alaris, Canon, Epson. Tư vấn & báo giá.",
   path: "/giai-phap/may-scan",
 });
 
@@ -107,7 +107,7 @@ export default async function ScannerSolutionsPage() {
             Giải pháp máy scan theo ngành, nhu cầu & thương hiệu
           </h1>
           <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-700">
-            Chọn nhanh máy scan chính hãng theo bối cảnh sử dụng. HPT Tech tư vấn cấu hình, báo giá dự án, xuất VAT, giao hàng và hỗ trợ toàn quốc.
+            Chọn nhanh máy scan chính hãng theo bối cảnh sử dụng. Vtech Group tư vấn cấu hình, báo giá dự án, xuất VAT, giao hàng và hỗ trợ toàn quốc.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <a href="tel:0918871414" className="inline-flex h-12 items-center rounded-md bg-accent-500 px-5 text-sm font-bold text-white transition hover:bg-accent-600">

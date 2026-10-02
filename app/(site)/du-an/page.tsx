@@ -6,7 +6,7 @@ export const revalidate = 300;
 
 export const metadata = pageMetadata({
   title: "Dự án tiêu biểu",
-  description: "Các dự án công nghệ, thiết bị văn phòng và giải pháp số hóa HPT Tech đã triển khai.",
+  description: "Các dự án công nghệ, thiết bị văn phòng và giải pháp số hóa Vtech Group đã triển khai.",
   path: "/du-an",
 });
 

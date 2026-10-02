@@ -29,13 +29,13 @@ export async function generateMetadata({
 
   if (!landing) {
     return {
-      title: "Landing page sản phẩm | HPT Tech",
-      description: "Landing page giới thiệu sản phẩm và giải pháp của HPT Tech.",
+      title: "Landing page sản phẩm | Vtech Group",
+      description: "Landing page giới thiệu sản phẩm và giải pháp của Vtech Group.",
     };
   }
 
   return {
-    title: `${landing.title} | HPT Tech`,
+    title: `${landing.title} | Vtech Group`,
     description: landing.description,
   };
 }
@@ -820,13 +820,13 @@ function PremiumScannerLanding({
         <div className="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
           <div>
             <p className="text-xs font-black uppercase tracking-[0.24em] text-primary-700">
-              Khi mua tại HPT Tech
+              Khi mua tại Vtech Group
             </p>
             <h2 className="mt-3 text-3xl font-black tracking-tight text-ink">
               Trang landing phải chốt được niềm tin, không chỉ khoe máy
             </h2>
             <p className="mt-5 text-base leading-8 text-ink/70">
-              HPT Tech tập trung vào tư vấn đúng nhu cầu, báo giá rõ ràng, hàng chính hãng và hỗ trợ triển khai cho khách doanh nghiệp.
+              Vtech Group tập trung vào tư vấn đúng nhu cầu, báo giá rõ ràng, hàng chính hãng và hỗ trợ triển khai cho khách doanh nghiệp.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
@@ -849,13 +849,13 @@ function PremiumScannerLanding({
         <div className="grid gap-6 overflow-hidden rounded-[32px] bg-primary-900 p-7 text-white shadow-2xl shadow-primary-900/20 lg:grid-cols-[1fr_auto] lg:items-center lg:p-10">
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.22em] text-primary-100">
-              HPT Tech tư vấn triển khai
+              Vtech Group tư vấn triển khai
             </p>
             <h2 className="mt-3 text-3xl font-black tracking-tight">
               Cần chọn máy phù hợp cho phòng ban hoặc dự án số hóa?
             </h2>
             <p className="mt-4 max-w-3xl leading-8 text-primary-100">
-              Gửi nhu cầu tài liệu, khối lượng quét và môi trường sử dụng. HPT Tech sẽ tư vấn cấu hình, báo giá và phương án giao hàng phù hợp.
+              Gửi nhu cầu tài liệu, khối lượng quét và môi trường sử dụng. Vtech Group sẽ tư vấn cấu hình, báo giá và phương án giao hàng phù hợp.
             </p>
           </div>
           <a
@@ -1368,8 +1368,8 @@ const MICROTEK_S6570_HTML = `
 <header class="site">
   <div class="wrap site-in">
     <div class="brand">
-      <img class="brand-logo" src="/assets/logo/hptlogo.png" alt="HPT Technology">
-      <div>HPT TECH<small>THIẾT BỊ VĂN PHÒNG</small></div>
+      <img class="brand-logo" src="/assets/logo/vtech-group.svg" alt="Vtech Group">
+       <div>VTECH GROUP<small>THIẾT BỊ VĂN PHÒNG</small></div>
     </div>
     <div class="hbuy">
       <div class="hprice">80.000.000 đ<span>Giá tham khảo</span></div>
@@ -1524,7 +1524,7 @@ const MICROTEK_S6570_HTML = `
     <div class="box">
       <div>
         <h2>Cần tư vấn cấu hình số hóa A3 khối lượng lớn?</h2>
-        <p class="p">Microtek S6570 chính hãng, máy quét A3 hai mặt 75 trang/phút, có sẵn tại HPT Tech. Để lại yêu cầu để nhận tư vấn và báo giá tốt nhất.</p>
+        <p class="p">Microtek S6570 chính hãng, máy quét A3 hai mặt 75 trang/phút, có sẵn tại Vtech Group. Để lại yêu cầu để nhận tư vấn và báo giá tốt nhất.</p>
         <div class="cta-row">
           <a class="btn btn-primary" href="/lien-he"><span>Yêu cầu tư vấn và báo giá</span></a>
         </div>

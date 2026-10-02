@@ -136,7 +136,7 @@ export async function renderCategoryLanding(
 
       {/* Khối tiêu đề hiển thị (tên + badge + mô tả) đã BỎ theo yêu cầu 23/07 —
           giữ H1 ẩn cho SEO; số SP vẫn hiện ở thanh phân trang cuối trang. */}
-      <h1 className="sr-only">{leaf.name} chính hãng, giá tốt | HPT Tech</h1>
+      <h1 className="sr-only">{leaf.name} chính hãng, giá tốt | Vtech Group</h1>
 
       {/* CategoryLandingClient dùng useSearchParams → PHẢI bọc Suspense. */}
       <Suspense fallback={null}>

@@ -93,7 +93,7 @@ export default async function ContentPage({ params, searchParams }: PageProps) {
     ? {
         slug: payloadPage.slug,
         title: payloadPage.title,
-        eyebrow: payloadPage.eyebrow || fallbackPage?.eyebrow || "HPT Tech",
+        eyebrow: payloadPage.eyebrow || fallbackPage?.eyebrow || "Vtech Group",
         description: payloadPage.summary || fallbackPage?.description || "",
         ctaHref: fallbackPage?.ctaHref,
         ctaLabel: fallbackPage?.ctaLabel,
@@ -164,7 +164,7 @@ export async function generateMetadata({ params, searchParams }: PageProps) {
     const categoryName = leaf?.name || cleanBrandRoute.category;
     const metadata = pageMetadata({
       title: `${categoryName} ${cleanBrandRoute.brand} chính hãng, giá tốt`,
-      description: `${categoryName} ${cleanBrandRoute.brand} chính hãng tại HPT Tech, báo giá nhanh, xuất hóa đơn VAT, giao hàng toàn quốc cho doanh nghiệp.`,
+      description: `${categoryName} ${cleanBrandRoute.brand} chính hãng tại Vtech Group, báo giá nhanh, xuất hóa đơn VAT, giao hàng toàn quốc cho doanh nghiệp.`,
       path: cleanBrandRoute.href,
     });
     return result.totalProducts < 3 ? { ...metadata, robots: { index: false, follow: true } } : metadata;
@@ -186,7 +186,7 @@ export async function generateMetadata({ params, searchParams }: PageProps) {
     const categoryName = leaf?.name || cleanFilterRoute.category;
     const metadata = pageMetadata({
       title: `${categoryName} ${cleanFilterRoute.titlePart} chính hãng, giá tốt`,
-      description: `${categoryName} ${cleanFilterRoute.titlePart} chính hãng tại HPT Tech, báo giá nhanh, xuất hóa đơn VAT, giao hàng toàn quốc cho doanh nghiệp.`,
+      description: `${categoryName} ${cleanFilterRoute.titlePart} chính hãng tại Vtech Group, báo giá nhanh, xuất hóa đơn VAT, giao hàng toàn quốc cho doanh nghiệp.`,
       path: cleanFilterRoute.href,
     });
     return result.totalProducts < 3 ? { ...metadata, robots: { index: false, follow: true } } : metadata;
@@ -218,7 +218,7 @@ export async function generateMetadata({ params, searchParams }: PageProps) {
         title: seoContent?.seo.title || `${leaf.name} chính hãng, giá tốt`,
         description:
           seoContent?.seo.description ||
-          `${leaf.name} chính hãng tại HPT Tech — báo giá nhanh, xuất hóa đơn VAT, giao hàng toàn quốc. Tư vấn kỹ thuật tận nơi cho doanh nghiệp.`,
+          `${leaf.name} chính hãng tại Vtech Group — báo giá nhanh, xuất hóa đơn VAT, giao hàng toàn quốc. Tư vấn kỹ thuật tận nơi cho doanh nghiệp.`,
         path: `/${encodeURIComponent(leaf.slug)}`,
       });
       const resolvedSearchParams = searchParams ? await searchParams : {};
@@ -229,8 +229,8 @@ export async function generateMetadata({ params, searchParams }: PageProps) {
     }
   }
 
-  const title = payloadPage?.title || fallbackPage?.title || "HPT Tech";
-  const description = payloadPage?.summary || fallbackPage?.description || "Thông tin từ HPT Tech.";
+  const title = payloadPage?.title || fallbackPage?.title || "Vtech Group";
+  const description = payloadPage?.summary || fallbackPage?.description || "Thông tin từ Vtech Group.";
 
   return pageMetadata({
     title,

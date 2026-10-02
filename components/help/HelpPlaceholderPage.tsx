@@ -32,7 +32,7 @@ export default function HelpPlaceholderPage({
               </span>
               <h2 className="mt-5 text-2xl font-bold text-slate-900">Nội dung đang được cập nhật</h2>
               <p className="mt-3 max-w-xl leading-7 text-slate-600">
-                HPT Tech đang hoàn thiện thông tin cho trang này. Vui lòng quay lại sau hoặc liên hệ
+                Vtech Group đang hoàn thiện thông tin cho trang này. Vui lòng quay lại sau hoặc liên hệ
                 bộ phận hỗ trợ nếu bạn cần tư vấn ngay.
               </p>
             </div>

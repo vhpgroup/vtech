@@ -91,7 +91,7 @@ export default async function Dashboard() {
     <main className="hpt-dashboard">
       <header className="hpt-page-heading hpt-dashboard-heading">
         <div>
-          <nav aria-label="Breadcrumb"><span>HPT Tech</span><span>/</span><span>Dashboard</span></nav>
+          <nav aria-label="Breadcrumb"><span>Vtech Group</span><span>/</span><span>Dashboard</span></nav>
           <h1>Dashboard</h1>
           <p>Theo dõi và quản lý catalog, tồn kho, đơn hàng và nội dung website.</p>
         </div>

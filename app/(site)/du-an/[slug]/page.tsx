@@ -96,14 +96,14 @@ export async function generateMetadata({ params }: ProjectDetailPageProps) {
   if (!project) {
     return pageMetadata({
       title: "Dự án",
-      description: "Thông tin dự án HPT Tech.",
+      description: "Thông tin dự án Vtech Group.",
       path: `/du-an/${slug}`,
     });
   }
 
   return pageMetadata({
     title: project.title,
-    description: project.summary || "Dự án công nghệ được HPT Tech triển khai.",
+    description: project.summary || "Dự án công nghệ được Vtech Group triển khai.",
     path: `/du-an/${project.slug}`,
     image: project.image,
     type: "article",
@@ -259,7 +259,7 @@ export default async function ProjectDetailPage({ params }: ProjectDetailPagePro
             <p className="text-xs font-extrabold uppercase tracking-[0.18em] text-primary-300">Tư vấn triển khai</p>
             <h2 className="mt-2 text-2xl font-black">Bạn cần triển khai giải pháp tương tự?</h2>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-300">
-              Trao đổi nhu cầu với HPT Tech để nhận phương án phù hợp với quy mô và hạ tầng hiện tại.
+              Trao đổi nhu cầu với Vtech Group để nhận phương án phù hợp với quy mô và hạ tầng hiện tại.
             </p>
           </div>
           <Link href="/lien-he" className="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-bold text-primary-900 transition hover:bg-primary-50">

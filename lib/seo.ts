@@ -26,7 +26,7 @@ export function pageMetadata({
   type?: "website" | "article";
 }): Metadata {
   const url = absoluteURL(path);
-  const fullTitle = title.includes("HPT Tech") ? title : `${title} | HPT Tech`;
+  const fullTitle = title.includes("Vtech Group") ? title : `${title} | Vtech Group`;
   const resolvedImage = image || DEFAULT_OG_IMAGE;
   const images = [{ url: absoluteURL(resolvedImage), width: 1200, height: 630 }];
 
@@ -40,7 +40,7 @@ export function pageMetadata({
       title: fullTitle,
       description,
       url,
-      siteName: "HPT Tech",
+      siteName: "Vtech Group",
       type,
       images,
       locale: "vi_VN",

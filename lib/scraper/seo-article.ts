@@ -179,7 +179,7 @@ function fallbackHighlights(title: string, kind: ProductKind, specs: ProductSpec
       `${title} có thông tin kỹ thuật được tổng hợp từ nguồn sản phẩm đã crawl, phù hợp để khách hàng tham khảo trước khi chọn mua.`,
     );
     points.push(
-      `Thiết bị thuộc nhóm ${productNoun(kind)}, có thể được HPT Tech tư vấn theo nhu cầu sử dụng thực tế của từng khách hàng.`,
+      `Thiết bị thuộc nhóm ${productNoun(kind)}, có thể được Vtech Group tư vấn theo nhu cầu sử dụng thực tế của từng khách hàng.`,
     );
   }
 
@@ -201,7 +201,7 @@ function htmlList(items: string[]) {
 function specsHTML(specs: ProductSpec[], kind: ProductKind) {
   const items = keySpecs(specs, 10);
   if (!items.length && kind === "software") {
-    return `<p>Thông tin chi tiết của sản phẩm phần mềm được thể hiện trong phần mô tả và đặc điểm nổi bật từ nguồn sản phẩm. HPT Tech sẽ đối chiếu thêm điều kiện bản quyền, thời hạn sử dụng và hình thức kích hoạt khi tư vấn hoặc báo giá cho khách hàng.</p>`;
+    return `<p>Thông tin chi tiết của sản phẩm phần mềm được thể hiện trong phần mô tả và đặc điểm nổi bật từ nguồn sản phẩm. Vtech Group sẽ đối chiếu thêm điều kiện bản quyền, thời hạn sử dụng và hình thức kích hoạt khi tư vấn hoặc báo giá cho khách hàng.</p>`;
   }
   if (!items.length) return `<p>NEED_REVIEW: specifications</p>`;
 
@@ -228,10 +228,10 @@ function introParagraphs(title: string, kind: ProductKind, shortDescription: str
   ].filter(Boolean);
 
   return [
-    `${shortDescription || `${title} là ${noun} chính hãng được HPT Tech cung cấp cho nhu cầu sử dụng chuyên nghiệp.`} Sản phẩm phù hợp với khách hàng cần một thiết bị có thông tin rõ ràng, dễ đối chiếu thông số và có thể triển khai trong môi trường làm việc thực tế.`,
+    `${shortDescription || `${title} là ${noun} chính hãng được Vtech Group cung cấp cho nhu cầu sử dụng chuyên nghiệp.`} Sản phẩm phù hợp với khách hàng cần một thiết bị có thông tin rõ ràng, dễ đối chiếu thông số và có thể triển khai trong môi trường làm việc thực tế.`,
     secondParts.length
       ? `${title} nổi bật ở ${secondParts.join(", ")}. Nhờ đó, khách hàng có thể dễ dàng đối chiếu với khối lượng tài liệu, hạ tầng đang dùng và yêu cầu vận hành hằng ngày trước khi chọn mua.`
-      : `${title} được HPT Tech tổng hợp thông tin rõ ràng để khách hàng dễ tham khảo, so sánh cấu hình và trao đổi nhanh hơn khi cần tư vấn hoặc báo giá.`,
+      : `${title} được Vtech Group tổng hợp thông tin rõ ràng để khách hàng dễ tham khảo, so sánh cấu hình và trao đổi nhanh hơn khi cần tư vấn hoặc báo giá.`,
   ];
 }
 
@@ -324,14 +324,14 @@ function integrationParagraph(title: string, kind: ProductKind, specs: ProductSp
     return `${title} có các thông tin triển khai đáng chú ý gồm ${details.join(", ")}. Đây là nhóm dữ liệu quan trọng khi doanh nghiệp cần tích hợp thiết bị vào hệ thống hiện có, phân quyền người dùng, chuẩn hóa quy trình làm việc hoặc giao cho bộ phận kỹ thuật cài đặt.`;
   }
 
-  return `${title} nên được triển khai sau khi đã kiểm tra vị trí sử dụng, hạ tầng hiện có và yêu cầu vận hành của người dùng cuối. Với nhóm ${productNoun(kind)}, HPT Tech có thể tư vấn phương án phù hợp thay vì chỉ dựa vào tên model hoặc một vài thông số rời rạc.`;
+  return `${title} nên được triển khai sau khi đã kiểm tra vị trí sử dụng, hạ tầng hiện có và yêu cầu vận hành của người dùng cuối. Với nhóm ${productNoun(kind)}, Vtech Group có thể tư vấn phương án phù hợp thay vì chỉ dựa vào tên model hoặc một vài thông số rời rạc.`;
 }
 
 function fitParagraphs(title: string, kind: ProductKind) {
   if (kind === "scanner") {
     return [
       `${title} phù hợp với văn phòng, doanh nghiệp, trường học, bệnh viện, cơ quan nhà nước hoặc bộ phận cần số hóa hồ sơ thường xuyên. Sản phẩm đặc biệt hữu ích cho các nhóm xử lý hợp đồng, chứng từ kế toán, hồ sơ nhân sự, biểu mẫu hành chính và tài liệu lưu trữ.`,
-      "Nếu nhu cầu scan mỗi ngày rất thấp, khách hàng có thể cân nhắc model nhỏ hơn để tối ưu chi phí. Nếu cần xử lý khối lượng lớn liên tục, scan khổ lớn hoặc yêu cầu tích hợp sâu với hệ thống quản lý tài liệu, nên trao đổi thêm với HPT Tech để chọn model cao hơn.",
+      "Nếu nhu cầu scan mỗi ngày rất thấp, khách hàng có thể cân nhắc model nhỏ hơn để tối ưu chi phí. Nếu cần xử lý khối lượng lớn liên tục, scan khổ lớn hoặc yêu cầu tích hợp sâu với hệ thống quản lý tài liệu, nên trao đổi thêm với Vtech Group để chọn model cao hơn.",
     ];
   }
 
@@ -345,7 +345,7 @@ function fitParagraphs(title: string, kind: ProductKind) {
   if (kind === "photocopier") {
     return [
       `${title} phù hợp với văn phòng, doanh nghiệp, trường học, bệnh viện, cơ quan nhà nước hoặc đơn vị dịch vụ cần xử lý hồ sơ giấy thường xuyên. Sản phẩm đặc biệt hữu ích khi một nhóm người dùng cần dùng chung chức năng copy, in và scan trong cùng khu vực làm việc.`,
-      "Nếu nhu cầu chỉ in hoặc copy số lượng thấp, khách hàng có thể cân nhắc thiết bị nhỏ hơn để tối ưu chi phí. Nếu cần xử lý khối lượng lớn, dùng giấy A3 thường xuyên, cần nhiều khay giấy hoặc yêu cầu quản trị người dùng, nên trao đổi với HPT Tech để chọn cấu hình cao hơn.",
+      "Nếu nhu cầu chỉ in hoặc copy số lượng thấp, khách hàng có thể cân nhắc thiết bị nhỏ hơn để tối ưu chi phí. Nếu cần xử lý khối lượng lớn, dùng giấy A3 thường xuyên, cần nhiều khay giấy hoặc yêu cầu quản trị người dùng, nên trao đổi với Vtech Group để chọn cấu hình cao hơn.",
     ];
   }
 
@@ -360,7 +360,7 @@ function buyingAdvice(title: string, kind: ProductKind) {
 }
 
 function hptPolicy(title: string) {
-  return `${title} được HPT Tech tư vấn và cung cấp theo định hướng sản phẩm chính hãng, bảo hành theo tiêu chuẩn nhà sản xuất hoặc hãng phân phối. Khách hàng được hỗ trợ chọn cấu hình theo nhu cầu thực tế, phù hợp cho cá nhân, doanh nghiệp, trường học, bệnh viện và cơ quan nhà nước khi có yêu cầu. HPT Tech hỗ trợ báo giá, tư vấn giải pháp, giao hàng toàn quốc và phối hợp kiểm tra thông tin sản phẩm trước khi xác nhận đơn hàng.`;
+  return `${title} được Vtech Group tư vấn và cung cấp theo định hướng sản phẩm chính hãng, bảo hành theo tiêu chuẩn nhà sản xuất hoặc hãng phân phối. Khách hàng được hỗ trợ chọn cấu hình theo nhu cầu thực tế, phù hợp cho cá nhân, doanh nghiệp, trường học, bệnh viện và cơ quan nhà nước khi có yêu cầu. Vtech Group hỗ trợ báo giá, tư vấn giải pháp, giao hàng toàn quốc và phối hợp kiểm tra thông tin sản phẩm trước khi xác nhận đơn hàng.`;
 }
 
 function faqItems(title: string, kind: ProductKind, specs: ProductSpec[]) {
@@ -417,7 +417,7 @@ function faqItems(title: string, kind: ProductKind, specs: ProductSpec[]) {
         }
       : {
           question: `${title} có được bảo hành không?`,
-          answer: "Thông tin này cần được HPT Tech xác nhận theo từng cấu hình hoặc lô hàng.",
+          answer: "Thông tin này cần được Vtech Group xác nhận theo từng cấu hình hoặc lô hàng.",
         },
   ].filter((item): item is { question: string; answer: string } => Boolean(item));
 
@@ -453,7 +453,7 @@ function ensureArticleLength(html: string, title: string) {
     `Đối với doanh nghiệp và cơ quan, khả năng bàn giao, hướng dẫn sử dụng và hỗ trợ sau bán hàng cũng cần được tính vào quyết định mua. Hồ sơ sản phẩm, chính sách bảo hành và thông tin cấu hình nên được lưu cùng chứng từ để thuận tiện cho bộ phận kỹ thuật, kế toán và quản lý tài sản.`,
     `Người dùng nên kiểm tra yêu cầu hệ điều hành, trình điều khiển, phần mềm đi kèm và quyền truy cập mạng trước khi cài đặt. Nếu sản phẩm được dùng trong môi trường có chính sách bảo mật riêng, bộ phận CNTT cần xác nhận phương án kết nối và phân quyền trước khi đưa thiết bị vào hệ thống chính thức.`,
     `Việc bảo dưỡng định kỳ nên tuân theo hướng dẫn của hãng và tần suất sử dụng thực tế. Làm sạch đúng cách, theo dõi cảnh báo và sử dụng vật tư phù hợp giúp duy trì chất lượng đầu ra, hạn chế gián đoạn và kéo dài thời gian khai thác thiết bị trong môi trường làm việc.`,
-    `HPT Tech có thể hỗ trợ khách hàng đối chiếu cấu hình ${title} với nhu cầu thực tế trước khi đặt hàng. Khi liên hệ, khách hàng nên cung cấp quy mô sử dụng, khối lượng công việc, hạ tầng kết nối và những yêu cầu bắt buộc để đội ngũ tư vấn đề xuất phương án sát với mục tiêu triển khai.`,
+    `Vtech Group có thể hỗ trợ khách hàng đối chiếu cấu hình ${title} với nhu cầu thực tế trước khi đặt hàng. Khi liên hệ, khách hàng nên cung cấp quy mô sử dụng, khối lượng công việc, hạ tầng kết nối và những yêu cầu bắt buộc để đội ngũ tư vấn đề xuất phương án sát với mục tiêu triển khai.`,
   ];
 
   let expanded = html;
@@ -497,7 +497,7 @@ ${paragraphHTML(practicalParagraphs(title, kind, specs))}
 <p>${escapeHTML(integrationParagraph(title, kind, specs))}</p>
 <h2>Thông số kỹ thuật đáng chú ý</h2>
 ${specsHTML(specs, kind)}
-<h2>Chính sách bán hàng tại HPT Tech</h2>
+<h2>Chính sách bán hàng tại Vtech Group</h2>
 <p>${escapeHTML(hptPolicy(title))}</p>
 </div>`;
 
@@ -521,9 +521,9 @@ ${paragraphHTML(fitParagraphs(title, kind))}
 <p>${escapeHTML(buyingAdvice(title, kind))}</p>
 <h2>Thông số kỹ thuật đáng chú ý</h2>
 ${specsHTML(specs, kind)}
-<h2>Chính sách bán hàng tại HPT Tech</h2>
+<h2>Chính sách bán hàng tại Vtech Group</h2>
 <p>${escapeHTML(hptPolicy(title))}</p>
-<p>Xem thêm <a href="/san-pham">danh mục sản phẩm HPT Tech</a> hoặc liên hệ đội ngũ tư vấn để được gợi ý model phù hợp.</p>
+<p>Xem thêm <a href="/san-pham">danh mục sản phẩm Vtech Group</a> hoặc liên hệ đội ngũ tư vấn để được gợi ý model phù hợp.</p>
 <h2>Câu hỏi thường gặp về ${escapeHTML(title)}</h2>
 ${faqHTML(title, kind, specs)}
 </div>`;

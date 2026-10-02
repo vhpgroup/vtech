@@ -34,12 +34,12 @@ type QuoteRequest = {
 };
 
 const HPT_INFO = {
-  company: "CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG VÀ THIẾT BỊ CÔNG NGHỆ HPT",
+  company: "CÔNG TY TNHH VTECH GROUP",
   address: "SB.04 khu đô thị Vinhomes Marina, P. An Biên, TP. Hải Phòng",
   phone: "0918871414",
   website: "www.hpttech.vn",
   taxCode: "0202253444",
-  bankOwner: "CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG VÀ THIẾT BỊ CÔNG NGHỆ HPT",
+  bankOwner: "CÔNG TY TNHH VTECH GROUP",
   bankAccount: "929223339",
   bankName: "Techcombank - CN Hải Phòng",
   consultant: "Phạm Văn Bách",
@@ -161,7 +161,7 @@ function quoteHTML(data: QuoteRequest, origin: string, logoSrc?: string) {
     }),
     { subtotal: 0, vat: 0, total: 0 },
   );
-  const logo = logoSrc || new URL("/assets/logo/hptlogo.png", origin).toString();
+  const logo = logoSrc || new URL("/assets/logo/vtech-group.svg", origin).toString();
   const summaryColSpan = hasImages ? 5 : 4;
   const productRows = products
     .map(
@@ -205,15 +205,15 @@ function quoteHTML(data: QuoteRequest, origin: string, logoSrc?: string) {
           grid-template-columns: 165px 1fr;
           gap: 26px;
           padding-bottom: 18px;
-          border-bottom: 4px solid #2563eb;
+          border-bottom: 4px solid #008ddf;
         }
         .logo-image { width: 155px; height: auto; object-fit: contain; display: block; }
         .company { font-size: 15px; line-height: 1.25; font-weight: 900; text-transform: uppercase; margin: 0 0 10px; white-space: nowrap; letter-spacing: -0.1px; }
         .muted { color: #475569; }
         .company-lines { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 8px; }
         .title-row { display: grid; grid-template-columns: 1fr 230px; gap: 20px; padding: 30px 0 22px; align-items: start; }
-        h1 { margin: 0; text-align: center; color: #2563eb; font-size: 42px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; }
-        .title-rule { width: 190px; height: 2px; background: #93c5fd; margin: 10px auto 0; }
+        h1 { margin: 0; text-align: center; color: #008ddf; font-size: 42px; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; }
+        .title-rule { width: 190px; height: 2px; background: #75d8e9; margin: 10px auto 0; }
         .quote-meta { font-size: 13px; line-height: 1.9; }
         .customer {
           display: grid;
@@ -226,7 +226,7 @@ function quoteHTML(data: QuoteRequest, origin: string, logoSrc?: string) {
         }
         .customer p { margin: 0 0 12px; }
         .quote-table { width: 100%; border-collapse: collapse; table-layout: fixed; border: 1px solid #b8cdfd; }
-        .quote-table th { background: #2563eb; color: #fff; font-size: 11px; font-weight: 900; padding: 10px 6px; text-align: center; text-transform: uppercase; border: 1px solid #2563eb; }
+        .quote-table th { background: #008ddf; color: #fff; font-size: 11px; font-weight: 900; padding: 10px 6px; text-align: center; text-transform: uppercase; border: 1px solid #008ddf; }
         .quote-table td { border: 1px solid #b8cdfd; padding: 10px 8px; vertical-align: middle; }
         .stt-col { width: 42px; text-align: center; }
         .image-col { width: 108px; text-align: center; }
@@ -236,13 +236,13 @@ function quoteHTML(data: QuoteRequest, origin: string, logoSrc?: string) {
         .image-box { height: 92px; display: flex; align-items: center; justify-content: center; background: #f8fafc; }
         .image-box img { max-width: 88px; max-height: 82px; object-fit: contain; }
         .product-title { font-size: 14px; line-height: 1.35; font-weight: 900; margin: 0 0 5px; }
-        .detail { color: #2563eb; font-weight: 700; margin: 0 0 7px; line-height: 1.35; }
+        .detail { color: #008ddf; font-weight: 700; margin: 0 0 7px; line-height: 1.35; }
         ul { margin: 0; padding-left: 18px; }
         li { margin: 2px 0; line-height: 1.35; }
         .red { color: #ff0000; font-weight: 900; }
         .summary-row td { background: #f1f5f9; font-weight: 800; padding: 8px; }
         .summary-label { text-align: right; }
-        .grand-total td { color: #2563eb; font-size: 16px; font-weight: 900; text-transform: uppercase; }
+        .grand-total td { color: #008ddf; font-size: 16px; font-weight: 900; text-transform: uppercase; }
         .footer-box {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
@@ -252,8 +252,8 @@ function quoteHTML(data: QuoteRequest, origin: string, logoSrc?: string) {
           padding: 18px;
           margin-top: 22px;
         }
-        .footer-box h3 { color: #2563eb; font-size: 15px; margin: 0 0 10px; text-transform: uppercase; }
-        .thanks { margin-top: 24px; text-align: center; color: #2563eb; font-weight: 900; font-size: 18px; font-style: italic; }
+        .footer-box h3 { color: #008ddf; font-size: 15px; margin: 0 0 10px; text-transform: uppercase; }
+        .thanks { margin-top: 24px; text-align: center; color: #008ddf; font-weight: 900; font-size: 18px; font-style: italic; }
         .product-row { break-inside: avoid; page-break-inside: avoid; }
         .footer-box { break-inside: avoid; page-break-inside: avoid; }
       </style>
@@ -262,7 +262,7 @@ function quoteHTML(data: QuoteRequest, origin: string, logoSrc?: string) {
       <main class="page">
         <section class="header">
           <div>
-            <img class="logo-image" src="${escapeHTML(logo)}" alt="HPT Technology" />
+            <img class="logo-image" src="${escapeHTML(logo)}" alt="Vtech Group" />
           </div>
           <div>
             <h2 class="company">${escapeHTML(HPT_INFO.company)}</h2>
@@ -352,7 +352,7 @@ function quoteHTML(data: QuoteRequest, origin: string, logoSrc?: string) {
           </div>
         </section>
 
-        <p class="thanks">HPT Tech trân trọng cảm ơn Quý khách hàng!</p>
+        <p class="thanks">Vtech Group trân trọng cảm ơn Quý khách hàng!</p>
       </main>
     </body>
   </html>`;
@@ -385,7 +385,7 @@ export async function POST(request: Request) {
 
   // Nhúng logo + ảnh sản phẩm thành data URI để PDF luôn có ảnh (không phụ thuộc
   // việc puppeteer tải được ảnh qua mạng/proxy hay không).
-  const logoDataUri = await inlineImageAsDataUri("/assets/logo/hptlogo.png", imageOrigins);
+  const logoDataUri = await inlineImageAsDataUri("/assets/logo/vtech-group.svg", imageOrigins);
   const productLines = data.products?.length ? data.products : data.product ? [{ product: data.product }] : [];
   await Promise.all(
     productLines.map(async (line) => {

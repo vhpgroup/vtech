@@ -29,7 +29,7 @@ import { phoneHref } from "@/lib/site-settings";
 export const revalidate = 300;
 
 const title = "Hỗ trợ khách hàng dự án và doanh nghiệp";
-const companyName = "Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT";
+const companyName = "Công ty TNHH Vtech Group";
 const hotline = "0918871414";
 const email = "bach.pv@hpttech.vn";
 const address = "SB.04 Vinhomes Marina, P. An Biên, TP. Hải Phòng";
@@ -38,7 +38,7 @@ const directionsHref = `https://www.google.com/maps/search/?api=1&query=${encode
 export const metadata = pageMetadata({
   title,
   description:
-    "HPT Tech tiếp nhận tư vấn, khảo sát, báo giá và triển khai thiết bị, giải pháp công nghệ cho dự án và doanh nghiệp.",
+    "Vtech Group tiếp nhận tư vấn, khảo sát, báo giá và triển khai thiết bị, giải pháp công nghệ cho dự án và doanh nghiệp.",
   path: "/ho-tro-khach-hang-du-an-doanh-nghiep",
 });
 
@@ -153,8 +153,8 @@ export default async function EnterpriseSupportPage() {
               <div className="relative">
                 <div className="flex items-center gap-5">
                   <Image
-                    src="/assets/logo/hptlogo.png"
-                    alt="HPT Technology"
+                    src="/assets/logo/vtech-group.svg"
+                    alt="Vtech Group"
                     width={150}
                     height={84}
                     className="h-auto w-[120px] object-contain sm:w-[150px]"
@@ -163,7 +163,7 @@ export default async function EnterpriseSupportPage() {
                   <div className="h-16 w-px bg-slate-300" />
                   <div>
                     <p className="text-sm font-bold uppercase tracking-[0.18em] text-primary-700">
-                      HPT Technology
+                      Vtech Group
                     </p>
                     <h1 className="mt-1 max-w-2xl text-2xl font-black uppercase leading-tight text-primary-900 sm:text-3xl">
                       Phòng dự án và khách hàng doanh nghiệp
@@ -171,7 +171,7 @@ export default async function EnterpriseSupportPage() {
                   </div>
                 </div>
                 <p className="mt-5 max-w-4xl text-slate-600">
-                  HPT Tech tư vấn, cung cấp thiết bị và giải pháp công nghệ cho nhu cầu dự án,
+                  Vtech Group tư vấn, cung cấp thiết bị và giải pháp công nghệ cho nhu cầu dự án,
                   văn phòng và hệ thống doanh nghiệp. Phương án cụ thể được trao đổi sau khi tiếp
                   nhận yêu cầu và điều kiện triển khai thực tế.
                 </p>

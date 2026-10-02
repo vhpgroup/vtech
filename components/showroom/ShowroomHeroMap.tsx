@@ -310,7 +310,7 @@ export default function ShowroomHeroMap({ stores, phone, email, hours, days }: P
         ref={mapElRef}
         className="shm-map"
         role="application"
-        aria-label="Bản đồ hệ thống showroom HPT Tech trên toàn quốc"
+        aria-label="Bản đồ hệ thống showroom Vtech Group trên toàn quốc"
       />
 
       <div className="shm-ui">

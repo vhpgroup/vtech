@@ -68,7 +68,7 @@ export async function seedEnterpriseServices(payload: Payload) {
       data: {
         ...service,
         content: lexicalParagraphs(
-          `${service.summary}\n\nHPT Tech sẽ trao đổi chi tiết về ${service.title.toLocaleLowerCase("vi-VN")}, phạm vi công việc, thiết bị và chi phí sau khi tiếp nhận yêu cầu thực tế.`,
+          `${service.summary}\n\nVtech Group sẽ trao đổi chi tiết về ${service.title.toLocaleLowerCase("vi-VN")}, phạm vi công việc, thiết bị và chi phí sau khi tiếp nhận yêu cầu thực tế.`,
         ),
         sortOrder: index + 1,
         status: "published",

@@ -108,13 +108,13 @@ export function RecruitmentPageClient({
         <div className="absolute -right-24 -top-28 size-80 rounded-full bg-cyan-300/15 blur-3xl" />
         <div className="absolute -bottom-36 right-32 size-72 rounded-full bg-primary-200/10 blur-3xl" />
         <div className="relative max-w-2xl">
-          <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-primary-200">Gia nhập đội ngũ HPT Tech</p>
+          <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-primary-200">Gia nhập đội ngũ Vtech Group</p>
           <h1 className="mt-4 text-3xl font-black leading-tight sm:text-5xl">
             Cùng chúng tôi kiến tạo
             <span className="block text-cyan-300">giá trị công nghệ</span>
           </h1>
           <p className="mt-5 max-w-xl text-sm leading-7 text-primary-100">
-            HPT Tech chào đón những ứng viên mong muốn phát triển chuyên môn và tạo ra giá trị thiết thực cho khách hàng.
+            Vtech Group chào đón những ứng viên mong muốn phát triển chuyên môn và tạo ra giá trị thiết thực cho khách hàng.
           </p>
           <a href="#vi-tri-tuyen-dung" className="mt-7 inline-flex items-center gap-2 rounded-lg bg-white px-5 py-3 text-sm font-bold text-primary-600 transition hover:bg-primary-50">
             Xem vị trí đang tuyển
@@ -182,7 +182,7 @@ export function RecruitmentPageClient({
       {culturePosts.length ? (
         <section className="mt-12">
           <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-primary-600">Con người HPT</p>
-          <h2 className="mt-2 text-2xl font-black uppercase text-primary-900">Văn hóa HPT Tech</h2>
+          <h2 className="mt-2 text-2xl font-black uppercase text-primary-900">Văn hóa Vtech Group</h2>
           <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {culturePosts.slice(0, 4).map((post) => (
               <Link key={post.slug} href={post.href || `/tin-tuc/${post.fullPath || post.slug}`} className="group overflow-hidden rounded-xl border border-slate-200 bg-white shadow-sm">

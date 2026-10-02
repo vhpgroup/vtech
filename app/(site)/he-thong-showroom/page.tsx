@@ -49,10 +49,10 @@ const STORES: Store[] = [
     image: `${R2}showroom-hai-phong.jpg`,
     imageW: 644,
     imageH: 481,
-    imageAlt: "Mặt tiền trụ sở & showroom HPT Tech tại SB04 Vinhomes Marina, Hải Phòng",
+    imageAlt: "Mặt tiền trụ sở & showroom Vtech Group tại SB04 Vinhomes Marina, Hải Phòng",
     barTitle: "SB04 VINHOMES MARINA",
     barSub: "Phường An Biên, TP. Hải Phòng",
-    // Pin doanh nghiệp "HPT Tech" trên Google Maps (embed do HPT cung cấp).
+    // Pin doanh nghiệp "Vtech Group" trên Google Maps (embed do HPT cung cấp).
     mapSrc:
       "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.256153855568!2d106.6875276859689!3d20.821360245318722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7155698f3c69%3A0x95aed3909eec7d29!2sHPT%20Tech!5e0!3m2!1sen!2s!4v1784883601930!5m2!1sen!2s",
     directions: "https://www.google.com/maps/search/?api=1&query=20.8213602,106.6875277",
@@ -69,7 +69,7 @@ const STORES: Store[] = [
     image: `${R2}showroom-ho-chi-minh.jpg`,
     imageW: 1200,
     imageH: 896,
-    imageAlt: "Không gian showroom HPT Tech — 285 Trần Bình Trọng, TP. Hồ Chí Minh",
+    imageAlt: "Không gian showroom Vtech Group — 285 Trần Bình Trọng, TP. Hồ Chí Minh",
     barTitle: "285 TRẦN BÌNH TRỌNG",
     barSub: "Phường 4, Quận 5, TP. Hồ Chí Minh",
     mapSrc: "https://maps.google.com/maps?q=10.7613673,106.6793788&hl=vi&z=17&output=embed",
@@ -86,7 +86,7 @@ const STORES: Store[] = [
     image: `${R2}showroom-ha-noi.jpg`,
     imageW: 1200,
     imageH: 896,
-    imageAlt: "Showroom HPT Tech — Số 3, Ngõ 198 Lê Trọng Tấn, Hà Nội",
+    imageAlt: "Showroom Vtech Group — Số 3, Ngõ 198 Lê Trọng Tấn, Hà Nội",
     barTitle: "SỐ 3, NGÕ 198 LÊ TRỌNG TẤN",
     barSub: "Phường Phương Liệt, TP. Hà Nội",
     mapSrc: "https://maps.google.com/maps?q=20.9936017,105.8307945&hl=vi&z=18&output=embed",
@@ -103,7 +103,7 @@ const STORES: Store[] = [
     image: `${R2}showroom-can-tho.jpg`,
     imageW: 1600,
     imageH: 1067,
-    imageAlt: "Không gian showroom HPT Tech tại Cần Thơ — 69 Nguyễn Trãi, Ninh Kiều",
+    imageAlt: "Không gian showroom Vtech Group tại Cần Thơ — 69 Nguyễn Trãi, Ninh Kiều",
     barTitle: "69 NGUYỄN TRÃI",
     barSub: "Phường Ninh Kiều, TP. Cần Thơ",
     mapSrc: "https://maps.google.com/maps?q=10.0399637,105.7852092&hl=vi&z=17&output=embed",
@@ -120,7 +120,7 @@ const STORES: Store[] = [
     image: `${R2}showroom-thanh-hoa.jpg`,
     imageW: 1600,
     imageH: 1067,
-    imageAlt: "Không gian showroom HPT Tech tại Thanh Hóa — Nguyễn Thị Anh, Hạc Thành",
+    imageAlt: "Không gian showroom Vtech Group tại Thanh Hóa — Nguyễn Thị Anh, Hạc Thành",
     barTitle: "NGUYỄN THỊ ANH",
     barSub: "Lô 32 Nơ 18, Phường Hạc Thành, Thanh Hóa",
     mapSrc: "https://maps.google.com/maps?q=19.7758149,105.7775896&hl=vi&z=18&output=embed",
@@ -137,7 +137,7 @@ const STORES: Store[] = [
     image: `${R2}showroom-quang-ngai.jpg`,
     imageW: 1600,
     imageH: 1067,
-    imageAlt: "Không gian showroom HPT Tech tại Quảng Ngãi — 199 Đoàn Thị Điểm",
+    imageAlt: "Không gian showroom Vtech Group tại Quảng Ngãi — 199 Đoàn Thị Điểm",
     barTitle: "199 ĐOÀN THỊ ĐIỂM",
     barSub: "Phường Kon Tum, Quảng Ngãi",
     mapSrc: "https://maps.google.com/maps?q=14.3499089,108.0018309&hl=vi&z=17&output=embed",
@@ -151,7 +151,7 @@ export function generateMetadata() {
   return pageMetadata({
     title: "Hệ thống Showroom",
     description:
-      "Hệ thống 6 showroom HPT Tech tại Hải Phòng, Hồ Chí Minh, Hà Nội, Cần Thơ, Thanh Hóa và Quảng Ngãi — địa chỉ, giờ mở cửa và bản đồ chỉ đường. Trưng bày máy scan, máy in, thiết bị văn phòng và giải pháp số hóa.",
+      "Hệ thống 6 showroom Vtech Group tại Hải Phòng, Hồ Chí Minh, Hà Nội, Cần Thơ, Thanh Hóa và Quảng Ngãi — địa chỉ, giờ mở cửa và bản đồ chỉ đường. Trưng bày máy scan, máy in, thiết bị văn phòng và giải pháp số hóa.",
     path: "/he-thong-showroom",
   });
 }
@@ -164,7 +164,7 @@ export default async function ShowroomPage() {
     "@context": "https://schema.org",
     "@graph": STORES.map((store) => ({
       "@type": "Store",
-      name: `HPT Tech — ${store.label}`,
+      name: `Vtech Group — ${store.label}`,
       address: {
         "@type": "PostalAddress",
         streetAddress: store.address,
@@ -191,7 +191,7 @@ export default async function ShowroomPage() {
           dạng sr-only để trang không mất tiêu đề SEO/a11y. */}
       <section className="relative h-[620px] overflow-hidden bg-[#e7f0fd] lg:h-[640px]">
         <h1 className="sr-only">
-          Hệ thống showroom HPT Tech — 6 showroom trên toàn quốc
+          Hệ thống showroom Vtech Group — 6 showroom trên toàn quốc
         </h1>
         <ShowroomHeroMap
           stores={STORES.map((store) => ({
@@ -373,7 +373,7 @@ export default async function ShowroomPage() {
         {/* DẢI CTA — hỗ trợ toàn quốc */}
         <section className="flex flex-col items-start justify-between gap-5 bg-[#0f2557] px-5 py-6 lg:flex-row lg:items-center lg:px-11">
           <p className="max-w-3xl text-[14.5px] leading-relaxed text-white/90">
-            <strong className="text-white">Cần hỗ trợ ngoài 6 khu vực trên?</strong> HPT Tech giao
+            <strong className="text-white">Cần hỗ trợ ngoài 6 khu vực trên?</strong> Vtech Group giao
             hàng và lắp đặt trên toàn quốc — đội ngũ kỹ thuật tư vấn cấu hình, báo giá và triển khai
             tận nơi cho doanh nghiệp.
           </p>

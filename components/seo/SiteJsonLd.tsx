@@ -3,7 +3,7 @@ import { normalizeSiteSettings } from "@/lib/site-settings";
 
 type Settings = ReturnType<typeof normalizeSiteSettings>;
 
-const HPT_LEGAL_NAME = "Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT";
+const HPT_LEGAL_NAME = "Công ty TNHH Vtech Group";
 const HPT_TAX_ID = "0202253444";
 const HPT_HEADQUARTERS_ADDRESS = "SB04 Vinhomes Marina, phường An Biên";
 const HPT_HEADQUARTERS_CITY = "Hải Phòng";
@@ -13,10 +13,10 @@ export default function SiteJsonLd({ settings }: { settings: Settings }) {
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: settings.companyName || "HPT Tech",
+    name: settings.companyName || "Công ty TNHH Vtech Group",
     legalName: HPT_LEGAL_NAME,
     url: siteURL(),
-    logo: absoluteURL("/assets/logo/hptlogo.png"),
+    logo: absoluteURL("/assets/logo/vtech-group.svg"),
     image: absoluteURL("/assets/og/hpttech-og.jpg"),
     taxID: HPT_TAX_ID,
     telephone,
@@ -41,7 +41,7 @@ export default function SiteJsonLd({ settings }: { settings: Settings }) {
   const website = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: settings.companyName || "HPT Tech",
+    name: settings.companyName || "Công ty TNHH Vtech Group",
     url: siteURL(),
     potentialAction: {
       "@type": "SearchAction",

@@ -36,7 +36,7 @@ const geist = Geist({
 export const metadata: Metadata = {
   metadataBase: new URL(siteURL()),
   // Favicon PHAI vuong va canh la boi so cua 48px thi Google moi chap nhan.
-  // Truoc day ca 3 khai bao deu tro ve /assets/logo/hptlogo.png (1661x1007, ~624KB) —
+  // Truoc day ca 3 khai bao deu tro ve /assets/logo/vtech-group.svg (1661x1007, ~624KB) —
   // logo ngang nen Google tu choi, ket qua tim kiem hien icon qua dia cau mac dinh.
   // Bo icon vuong duoi day sinh boi scripts/extract-favicon-assets.cjs (predev/prebuild).
   icons: {
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
     google: "uSw_FL3iLj0w-MjCqh8DQI1aPEKi6g0ozC-KgHFxUls",
   },
   ...pageMetadata({
-    title: "HPT Tech - Thiết bị văn phòng & giải pháp số hóa",
+    title: "Vtech Group - Thiết bị văn phòng & giải pháp số hóa",
     description:
-      "HPT Tech cung cấp máy in, máy scan, thiết bị văn phòng và giải pháp số hóa tài liệu cho doanh nghiệp.",
+      "Vtech Group cung cấp máy in, máy scan, thiết bị văn phòng và giải pháp số hóa tài liệu cho doanh nghiệp.",
   }),
 };
 

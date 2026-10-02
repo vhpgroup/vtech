@@ -22,7 +22,7 @@ export default function AISearchHero({
         <div className="flex flex-col items-center text-center">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-primary-100">
             <Bot size={16} />
-            HPT Tech AI Product Finder
+            Vtech Group AI Product Finder
           </div>
           <h1 className="max-w-3xl text-3xl font-bold leading-tight md:text-4xl">
             AI Search - Tìm sản phẩm thông minh

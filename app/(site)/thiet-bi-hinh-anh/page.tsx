@@ -50,7 +50,7 @@ export default async function ThietBiHinhAnhPage({ searchParams }: PageProps) {
               <Images size={24} />
             </span>
             <div>
-              <p className="text-xs font-semibold uppercase tracking-wide text-primary-700">HPT Tech</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-primary-700">Vtech Group</p>
               <h1 className="text-2xl font-bold text-slate-950 sm:text-3xl">{CATEGORY_NAME}</h1>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default async function ThietBiHinhAnhPage({ searchParams }: PageProps) {
           <div className="rounded-xl border border-dashed border-slate-300 bg-slate-50/70 p-6">
             <p className="text-base font-semibold text-slate-950">Sản phẩm đang được cập nhật</p>
             <p className="mt-1 text-sm leading-6 text-slate-600">
-              Danh mục sẽ sớm có sản phẩm. Cần tư vấn hoặc báo giá ngay, vui lòng liên hệ đội ngũ HPT Tech.
+              Danh mục sẽ sớm có sản phẩm. Cần tư vấn hoặc báo giá ngay, vui lòng liên hệ đội ngũ Vtech Group.
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
               <a

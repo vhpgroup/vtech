@@ -76,7 +76,7 @@ export default function ContactForm({ icon, fallbackEmail }: { icon: React.React
       </button>
       {sent ? (
         <p className="mt-4 rounded-md bg-green-50 p-3 text-sm font-medium text-green-700">
-          Đã gửi yêu cầu. HPT Tech sẽ phản hồi trong thời gian sớm nhất.
+          Đã gửi yêu cầu. Vtech Group sẽ phản hồi trong thời gian sớm nhất.
         </p>
       ) : null}
       {error ? (

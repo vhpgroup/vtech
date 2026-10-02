@@ -113,7 +113,7 @@ export default async function EnterpriseServiceDetailPage({ params }: PageProps)
               <div className="mt-8 space-y-4 leading-7 text-slate-700">
                 <p>{service.summary}</p>
                 <p>
-                  Nội dung chi tiết đang được cập nhật. Quý khách vui lòng liên hệ HPT Tech để trao
+                  Nội dung chi tiết đang được cập nhật. Quý khách vui lòng liên hệ Vtech Group để trao
                   đổi yêu cầu, phạm vi triển khai và nhận phương án phù hợp.
                 </p>
               </div>
@@ -305,7 +305,7 @@ function DocumentDigitizationPage() {
             <section className="mt-10 border border-primary-200 bg-primary-50 p-5 sm:p-6">
               <div className="flex items-center gap-3">
                 <Wrench className="text-primary-700" size={24} />
-                <h2 className="text-lg font-black uppercase text-primary-900">Liên hệ HPT Tech</h2>
+                <h2 className="text-lg font-black uppercase text-primary-900">Liên hệ Vtech Group</h2>
               </div>
               <div className="mt-4 flex flex-wrap gap-3">
                 <a
@@ -495,7 +495,7 @@ function OCRAutomationPage() {
             <section className="mt-10 border border-primary-200 bg-primary-50 p-5 sm:p-6">
               <div className="flex items-center gap-3">
                 <ScanText className="text-primary-700" size={24} />
-                <h2 className="text-lg font-black uppercase text-primary-900">Liên hệ HPT Tech</h2>
+                <h2 className="text-lg font-black uppercase text-primary-900">Liên hệ Vtech Group</h2>
               </div>
               <div className="mt-4 flex flex-wrap gap-3">
                 <a
@@ -565,7 +565,7 @@ function EnterpriseNetworkPage() {
                 Hạ tầng mạng doanh nghiệp
               </h1>
               <p className="mt-4 max-w-4xl text-base leading-7 text-slate-600">
-                HPT Tech tư vấn, cung cấp và triển khai thiết bị mạng, Wi-Fi, máy chủ, lưu trữ,
+                Vtech Group tư vấn, cung cấp và triển khai thiết bị mạng, Wi-Fi, máy chủ, lưu trữ,
                 camera và hạ tầng cáp theo quy mô sử dụng thực tế. Phương án thiết bị và lắp đặt
                 được xác định sau khi tiếp nhận yêu cầu hoặc khảo sát hiện trạng.
               </p>
@@ -666,7 +666,7 @@ function EnterpriseNetworkPage() {
             <section className="mt-10 border border-primary-200 bg-primary-50 p-5 sm:p-6">
               <div className="flex items-center gap-3">
                 <Network className="text-primary-700" size={24} />
-                <h2 className="text-lg font-black uppercase text-primary-900">Liên hệ HPT Tech</h2>
+                <h2 className="text-lg font-black uppercase text-primary-900">Liên hệ Vtech Group</h2>
               </div>
               <div className="mt-4 flex flex-wrap gap-3">
                 <a
@@ -764,7 +764,7 @@ export async function generateMetadata({ params }: PageProps) {
 
   return pageMetadata({
     title: service?.title || "Giải pháp doanh nghiệp",
-    description: service?.summary || "Giải pháp và dịch vụ công nghệ cho doanh nghiệp tại HPT Tech.",
+    description: service?.summary || "Giải pháp và dịch vụ công nghệ cho doanh nghiệp tại Vtech Group.",
     path: `${basePath}/${slug}`,
   });
 }

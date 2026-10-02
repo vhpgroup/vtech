@@ -17,7 +17,7 @@ import { phoneHref } from "@/lib/site-settings";
 export const metadata = pageMetadata({
   title: "Chính sách giao hàng",
   description:
-    "Phạm vi, thời gian, chi phí và quy định giao nhận hàng hóa của HPT Tech trên toàn quốc.",
+    "Phạm vi, thời gian, chi phí và quy định giao nhận hàng hóa của Vtech Group trên toàn quốc.",
   path: "/chinh-sach-giao-hang",
 });
 
@@ -47,17 +47,17 @@ export default function DeliveryPolicyPage() {
             </h1>
 
             <p className="mx-auto mt-5 max-w-4xl text-center text-slate-600">
-              HPT Tech hỗ trợ giao nhận sản phẩm và giải pháp công nghệ trên toàn quốc. Phương án,
+              Vtech Group hỗ trợ giao nhận sản phẩm và giải pháp công nghệ trên toàn quốc. Phương án,
               chi phí và thời gian giao hàng được xác nhận với khách hàng trước khi thực hiện.
             </p>
 
             <PolicySection icon={MapPin} title="Phạm vi giao hàng">
               <p>
-                HPT Tech cung cấp dịch vụ giao hàng trên toàn quốc đối với các sản phẩm và giải pháp
+                Vtech Group cung cấp dịch vụ giao hàng trên toàn quốc đối với các sản phẩm và giải pháp
                 do công ty phân phối.
               </p>
               <p>
-                Tại Hải Phòng, hàng hóa có thể được giao trực tiếp bởi đội ngũ HPT Tech hoặc bằng
+                Tại Hải Phòng, hàng hóa có thể được giao trực tiếp bởi đội ngũ Vtech Group hoặc bằng
                 phương tiện phù hợp với đặc điểm của từng sản phẩm.
               </p>
               <p>
@@ -80,11 +80,11 @@ export default function DeliveryPolicyPage() {
               />
               <p>
                 Sản phẩm đặt trước, chờ nhập hàng hoặc đơn hàng dự án có thời gian giao riêng và sẽ
-                được HPT Tech thông báo khi xác nhận đơn hàng.
+                được Vtech Group thông báo khi xác nhận đơn hàng.
               </p>
               <p>
                 Trong trường hợp thời tiết xấu, thiên tai, ùn tắc giao thông, gián đoạn vận chuyển
-                hoặc nguyên nhân khách quan khác, thời gian giao có thể kéo dài. HPT Tech sẽ chủ động
+                hoặc nguyên nhân khách quan khác, thời gian giao có thể kéo dài. Vtech Group sẽ chủ động
                 cập nhật khi phát sinh chậm trễ.
               </p>
             </PolicySection>
@@ -96,7 +96,7 @@ export default function DeliveryPolicyPage() {
               </p>
               <BulletList
                 items={[
-                  "Đơn hàng từ 5.000.000 VNĐ trở lên được miễn phí giao hàng trong phạm vi 08 km tính từ văn phòng HPT Tech.",
+                  "Đơn hàng từ 5.000.000 VNĐ trở lên được miễn phí giao hàng trong phạm vi 08 km tính từ văn phòng Vtech Group.",
                   "Nếu địa chỉ giao hàng cách văn phòng trên 08 km, chỉ phần quãng đường vượt quá 08 km được tính phụ phí 5.000 VNĐ/km.",
                   "Đơn hàng dưới 5.000.000 VNĐ được tính phí theo khoảng cách và điều kiện giao nhận thực tế; mức phí được thông báo trước khi xác nhận đơn.",
                 ]}
@@ -110,7 +110,7 @@ export default function DeliveryPolicyPage() {
                     tính phí 04 km vượt quá.
                   </li>
                   <li>
-                    - Đơn hàng 3.000.000 VNĐ: HPT Tech báo phí giao hàng thực tế trước khi giao.
+                    - Đơn hàng 3.000.000 VNĐ: Vtech Group báo phí giao hàng thực tế trước khi giao.
                   </li>
                 </ul>
               </div>
@@ -135,7 +135,7 @@ export default function DeliveryPolicyPage() {
                 không mặc định nằm trong phí giao hàng và sẽ được báo trước theo điều kiện thực tế.
               </p>
               <p>
-                Với đơn hàng dự án, doanh nghiệp hoặc cơ quan nhà nước, HPT Tech sẽ thống nhất phương
+                Với đơn hàng dự án, doanh nghiệp hoặc cơ quan nhà nước, Vtech Group sẽ thống nhất phương
                 án vận chuyển, bàn giao và triển khai trước khi thực hiện.
               </p>
             </PolicySection>
@@ -145,7 +145,7 @@ export default function DeliveryPolicyPage() {
                 items={[
                   "Hàng hóa được gửi qua đơn vị vận chuyển uy tín hoặc theo yêu cầu phù hợp của khách hàng.",
                   "Phí vận chuyển được tính theo biểu phí của đơn vị vận chuyển tại thời điểm gửi hàng.",
-                  "HPT Tech thông báo chi phí dự kiến để khách hàng xác nhận trước khi giao.",
+                  "Vtech Group thông báo chi phí dự kiến để khách hàng xác nhận trước khi giao.",
                   "Đơn hàng giá trị lớn hoặc dự án đặc biệt có thể được hỗ trợ chi phí theo từng trường hợp cụ thể.",
                 ]}
               />
@@ -164,7 +164,7 @@ export default function DeliveryPolicyPage() {
               <p>
                 Nếu phát hiện hư hỏng, thiếu phụ kiện, giao sai sản phẩm hoặc dấu hiệu bất thường,
                 khách hàng cần ghi chú trên biên bản giao nhận, chụp ảnh hoặc quay video và thông báo
-                cho HPT Tech ngay khi nhận hàng, chậm nhất trong vòng 24 giờ.
+                cho Vtech Group ngay khi nhận hàng, chậm nhất trong vòng 24 giờ.
               </p>
               <p>
                 Thông báo sau thời hạn trên vẫn được tiếp nhận hỗ trợ, tuy nhiên việc xác định trách
@@ -174,7 +174,7 @@ export default function DeliveryPolicyPage() {
 
             <PolicySection icon={CheckCircle2} title="Trách nhiệm giao nhận">
               <p>
-                HPT Tech chịu trách nhiệm tổ chức giao hàng đến đúng địa chỉ khách hàng cung cấp và
+                Vtech Group chịu trách nhiệm tổ chức giao hàng đến đúng địa chỉ khách hàng cung cấp và
                 phối hợp với đơn vị vận chuyển xử lý các trường hợp mất mát, hư hỏng hoặc giao thiếu
                 phát sinh trước khi khách hàng hoàn tất kiểm tra và ký nhận.
               </p>
@@ -184,7 +184,7 @@ export default function DeliveryPolicyPage() {
               </p>
               <p>
                 Nếu giao hàng không thành công do địa chỉ hoặc thông tin liên hệ không chính xác,
-                khách hàng không nhận hàng theo lịch đã thống nhất hoặc yêu cầu giao lại, HPT Tech có
+                khách hàng không nhận hàng theo lịch đã thống nhất hoặc yêu cầu giao lại, Vtech Group có
                 thể thu phí giao lại phát sinh và sẽ thông báo trước khi thực hiện.
               </p>
               <p>
@@ -203,7 +203,7 @@ export default function DeliveryPolicyPage() {
             <PolicySection icon={Phone} title="Thông tin liên hệ">
               <div className="border border-slate-300 bg-slate-50 p-5 sm:p-6">
                 <h3 className="font-black uppercase leading-7 text-slate-900">
-                  Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT
+                  Công ty TNHH Vtech Group
                 </h3>
                 <div className="mt-5 grid gap-4 md:grid-cols-2">
                   <ContactItem icon={MapPin} label="Địa chỉ" value={address} />

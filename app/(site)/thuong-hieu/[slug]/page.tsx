@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: PageProps) {
 
   return pageMetadata({
     title: `Chứng nhận ${cert.kindLabel} ${cert.brand}`,
-    description: cert.summary || `HPT Tech là ${cert.kindLabel} ${cert.brand} tại ${cert.territory || "Việt Nam"}.`,
+    description: cert.summary || `Vtech Group là ${cert.kindLabel} ${cert.brand} tại ${cert.territory || "Việt Nam"}.`,
     path: cert.href,
     image: cert.image,
     type: "article",

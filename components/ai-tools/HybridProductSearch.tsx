@@ -138,7 +138,7 @@ export default function HybridProductSearch() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="mx-auto mb-3 inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-3 py-1 text-[11px] font-bold uppercase tracking-wide text-primary-50">
               <Sparkles size={13} />
-              HPT Tech AI Product Finder
+              Vtech Group AI Product Finder
             </div>
             <h1 className="text-2xl font-extrabold tracking-normal sm:text-3xl">
               AI Search - Tìm sản phẩm thông minh

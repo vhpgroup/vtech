@@ -6,7 +6,7 @@ export const revalidate = 300;
 
 export const metadata = pageMetadata({
   title: "Tuyển dụng",
-  description: "Cơ hội nghề nghiệp và môi trường làm việc tại HPT Tech.",
+  description: "Cơ hội nghề nghiệp và môi trường làm việc tại Vtech Group.",
   path: "/tuyen-dung",
 });
 

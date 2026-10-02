@@ -382,7 +382,7 @@ function openAIModel() {
 
 function articlePrompt(topic: string, category: LeafCategory, sources: NewsSource[]) {
   return [
-    "Bạn là writer SEO tiếng Việt cho HPT Tech.",
+    "Bạn là writer SEO tiếng Việt cho Vtech Group.",
     "Viết bài mới hoàn toàn, không copy câu chữ nguồn, không bịa số liệu, không dùng giọng quảng cáo quá đà.",
     "Đối tượng đọc: tất cả mọi người, gồm cá nhân, văn phòng, doanh nghiệp, trường học, cơ quan.",
     "Không dùng các từ tuyệt đối như tốt nhất, số 1, hoàn hảo, đỉnh cao, vượt trội nhất.",

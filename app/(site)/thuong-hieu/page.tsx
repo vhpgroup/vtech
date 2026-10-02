@@ -18,7 +18,7 @@ export function generateMetadata() {
   return pageMetadata({
     title: "Thương hiệu & Chứng nhận ủy quyền chính hãng",
     description:
-      "HPT Tech là nhà phân phối và đối tác ủy quyền chính hãng của nhiều thương hiệu thiết bị văn phòng, máy scan và giải pháp số hóa. Cam kết hàng chính hãng 100%, bảo hành chuẩn hãng, xuất hóa đơn VAT.",
+      "Vtech Group là nhà phân phối và đối tác ủy quyền chính hãng của nhiều thương hiệu thiết bị văn phòng, máy scan và giải pháp số hóa. Cam kết hàng chính hãng 100%, bảo hành chuẩn hãng, xuất hóa đơn VAT.",
     path: "/thuong-hieu",
   });
 }

@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: PageProps) {
   if (post) {
     return pageMetadata({
       title: post.title,
-      description: post.summary || "Tin tuc va bai viet tu HPT Tech.",
+      description: post.summary || "Tin tuc va bai viet tu Vtech Group.",
       path: post.href || `/tin-tuc/${path}`,
       image: post.image,
       type: "article",
@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: PageProps) {
   if (category) {
     return pageMetadata({
       title: category.fullTitle || category.name,
-      description: category.description || "Tin tuc, huong dan va kien thuc tu HPT Tech.",
+      description: category.description || "Tin tuc, huong dan va kien thuc tu Vtech Group.",
       path: `/tin-tuc/${path}`,
       image: category.image,
     });
@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: PageProps) {
 
   return pageMetadata({
     title: "Tin tuc",
-    description: "Tin tuc va bai viet tu HPT Tech.",
+    description: "Tin tuc va bai viet tu Vtech Group.",
     path: `/tin-tuc/${path}`,
     type: "article",
   });

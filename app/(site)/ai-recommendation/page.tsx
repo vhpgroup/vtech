@@ -4,7 +4,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "AI Recommendation sản phẩm",
   description:
-    "AI Recommendation giúp khách hàng mô tả nhu cầu, nhận gợi ý sản phẩm phù hợp và kiểm tra sản phẩm nào có tại HPT Tech.",
+    "AI Recommendation giúp khách hàng mô tả nhu cầu, nhận gợi ý sản phẩm phù hợp và kiểm tra sản phẩm nào có tại Vtech Group.",
   path: "/ai-recommendation",
 });
 

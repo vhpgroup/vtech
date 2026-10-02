@@ -13,10 +13,10 @@ export default function ConsultationBox({ phone, email, zaloHref }: Consultation
       <h2 className="text-base font-bold text-slate-950">Cần tư vấn thêm?</h2>
       <div className="mt-4 flex items-center gap-3">
         <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-lg bg-white">
-          <Image src="/assets/consultants/HPT.webp" alt="Chuyên viên HPT Tech" fill className="object-cover" sizes="48px" />
+          <Image src="/assets/consultants/HPT.webp" alt="Chuyên viên Vtech Group" fill className="object-cover" sizes="48px" />
         </div>
         <p className="text-sm leading-5 text-slate-700">
-          Đội ngũ HPT Tech hỗ trợ chọn thiết bị theo số lượng hồ sơ, phòng ban và ngân sách triển khai.
+          Đội ngũ Vtech Group hỗ trợ chọn thiết bị theo số lượng hồ sơ, phòng ban và ngân sách triển khai.
         </p>
       </div>
       <div className="mt-4 grid gap-2">
@@ -37,7 +37,7 @@ export default function ConsultationBox({ phone, email, zaloHref }: Consultation
           Gọi ngay: {phone}
         </a>
         <a
-          href={`mailto:${email}?subject=${encodeURIComponent("Yêu cầu tư vấn AI Search HPT Tech")}`}
+          href={`mailto:${email}?subject=${encodeURIComponent("Yêu cầu tư vấn AI Search Vtech Group")}`}
           className="inline-flex h-10 items-center justify-center gap-2 rounded-md bg-primary-700 text-sm font-bold text-white transition hover:bg-primary-800"
         >
           <Mail size={17} />

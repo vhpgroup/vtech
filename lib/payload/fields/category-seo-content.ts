@@ -102,7 +102,7 @@ export const categorySeoContentField: Field = {
           label: "Tiêu đề SEO (title)",
           type: "text",
           admin: {
-            description: "Nên 50-60 ký tự. Hệ thống tự thêm ' | HPT Tech' nếu chưa có.",
+            description: "Nên 50-60 ký tự. Hệ thống tự thêm ' | Vtech Group' nếu chưa có.",
           },
         },
         {

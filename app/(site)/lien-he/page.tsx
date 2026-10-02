@@ -20,7 +20,7 @@ const PAYMENT_INFO = {
 export const metadata = pageMetadata({
   title: "Liên hệ",
   description:
-    "Liên hệ HPT Tech để nhận tư vấn thiết bị văn phòng, báo giá máy in, máy scan và giải pháp số hóa.",
+    "Liên hệ Vtech Group để nhận tư vấn thiết bị văn phòng, báo giá máy in, máy scan và giải pháp số hóa.",
   path: "/lien-he",
 });
 
@@ -31,9 +31,9 @@ export default async function ContactPage() {
   return (
     <main className="subpage-main">
       <SubpageHeader
-        eyebrow="Liên hệ HPT Tech"
+        eyebrow="Liên hệ Vtech Group"
         title="Liên hệ"
-        description="Kết nối với HPT Tech để nhận tư vấn thiết bị văn phòng, báo giá máy in, máy scan và giải pháp số hóa."
+        description="Kết nối với Vtech Group để nhận tư vấn thiết bị văn phòng, báo giá máy in, máy scan và giải pháp số hóa."
         breadcrumbs={[
           { label: "Trang chủ", href: "/" },
           { label: "Liên hệ" },

@@ -4,9 +4,9 @@ import { ArrowRight, ChevronUp } from "lucide-react";
 import type { PublicSiteSettings } from "@/lib/content-payload";
 import { phoneHref } from "@/lib/site-settings";
 
-const HPT_LOGO_SRC = "/assets/logo/hptlogo.png";
+const HPT_LOGO_SRC = "/assets/logo/vtech-group.svg";
 const HPT_BCT_BADGE_SRC = "/assets/logo/bctn.png";
-const HPT_LEGAL_NAME = "Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT";
+const HPT_LEGAL_NAME = "Công ty TNHH Vtech Group";
 const HPT_TAX_CODE = "0202253444";
 const HPT_PUBLIC_PHONE = "+84 918 871 414";
 const HPT_HEADQUARTERS = "Trụ sở: SB04 Vinhomes Marina, phường An Biên, TP. Hải Phòng";
@@ -62,9 +62,9 @@ const footerColumns: FooterColumn[] = [
     ],
   },
   {
-    title: "Về HPT",
+    title: "Về Vtech Group",
     links: [
-      { label: "Về HPT Tech", href: "/ve-hpt" },
+      { label: "Về Vtech Group", href: "/ve-hpt" },
       { label: "Dự án tiêu biểu", href: "/du-an" },
       { label: "Hồ sơ năng lực", href: "/ve-hpt#linh-vuc" },
       { label: "Đối tác & Thương hiệu", href: "/thuong-hieu" },
@@ -105,16 +105,16 @@ export default function Footer({ settings }: { settings: Required<PublicSiteSett
 
   return (
     <footer
-      className="relative overflow-hidden bg-[linear-gradient(180deg,#0d2744_0%,#11375f_48%,#184c80_100%)] text-white"
+      className="relative overflow-hidden bg-linear-to-br from-primary-900 via-primary-800 to-primary-600 text-white"
       aria-labelledby="footer-heading"
     >
       <h2 id="footer-heading" className="sr-only">
-        Footer HPT Tech
+        Footer Vtech Group
       </h2>
 
       <div className="mx-auto grid max-w-[1500px] gap-10 px-8 py-14 md:grid-cols-2 lg:grid-cols-[1.25fr_1fr_1.05fr_0.95fr_1.05fr] lg:gap-8 lg:px-10">
         <section className="lg:max-w-[340px]" aria-labelledby="footer-about-heading">
-          <Link href="/" className="inline-flex rounded-xl bg-white px-4 py-3" aria-label="HPT Tech trang chủ">
+          <Link href="/" className="inline-flex rounded-xl bg-white px-4 py-3" aria-label="Vtech Group trang chủ">
             <Image
               src={HPT_LOGO_SRC}
               alt={settings.companyName}
@@ -124,7 +124,7 @@ export default function Footer({ settings }: { settings: Required<PublicSiteSett
             />
           </Link>
           <p className="mt-6 text-[15px] leading-7 text-slate-100/85">
-            HPT Tech – Nhà cung cấp thiết bị và giải pháp công nghệ thông tin cho doanh nghiệp, tổ
+            Vtech Group – Nhà cung cấp thiết bị và giải pháp công nghệ thông tin cho doanh nghiệp, tổ
             chức và cơ quan nhà nước.
           </p>
 
@@ -138,7 +138,7 @@ export default function Footer({ settings }: { settings: Required<PublicSiteSett
             ))}
           </div>
 
-          <h3 className="footer-heading mt-8">Trụ sở &amp; Văn phòng HPT</h3>
+          <h3 className="footer-heading mt-8">Trụ sở &amp; Văn phòng Vtech Group</h3>
           <ul className="mt-4 space-y-2.5 text-sm leading-6 text-slate-100/85">
             {/* Khối pháp nhân: tên công ty + MST chung một mục (01/08, user chốt:
                 đổi tiêu đề, bỏ email, thêm tên công ty + mã số thuế). */}
@@ -187,7 +187,7 @@ export default function Footer({ settings }: { settings: Required<PublicSiteSett
       <div className="mx-auto max-w-[1500px] border-t border-white/15 px-8 py-7 lg:px-10">
         <div className="flex flex-col gap-6 text-sm text-slate-100/70 lg:flex-row lg:items-center lg:justify-between">
           <div>
-            <p>© 2026 HPT Tech. All rights reserved.</p>
+            <p>© 2026 Vtech Group. All rights reserved.</p>
             <p className="mt-1 text-xs text-slate-100/55">
               {HPT_LEGAL_NAME} · MST: {HPT_TAX_CODE}
             </p>

@@ -3,7 +3,7 @@ import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
   title: "Thanh toán",
-  description: "Hoàn tất đơn hàng HPT Tech bằng COD hoặc liên hệ xác nhận.",
+  description: "Hoàn tất đơn hàng Vtech Group bằng COD hoặc liên hệ xác nhận.",
   path: "/checkout",
 });
 

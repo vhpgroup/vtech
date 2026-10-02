@@ -14,7 +14,7 @@ export default function SiteSideBanners() {
       >
         <Image
           src={SIDE_AD_IMAGE}
-          alt="Ưu đãi Microsoft chính hãng tại HPT Tech"
+          alt="Ưu đãi Microsoft chính hãng tại Vtech Group"
           width={200}
           height={600}
           priority
@@ -27,7 +27,7 @@ export default function SiteSideBanners() {
       >
         <Image
           src={SIDE_AD_IMAGE}
-          alt="Ưu đãi Microsoft chính hãng tại HPT Tech"
+          alt="Ưu đãi Microsoft chính hãng tại Vtech Group"
           width={200}
           height={600}
           priority

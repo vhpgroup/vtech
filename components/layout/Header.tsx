@@ -16,11 +16,10 @@ import {
 } from "lucide-react";
 import HeaderCartButton from "@/components/cart/HeaderCartButton";
 import { useCategoryMenu } from "@/components/layout/CategoryMenu";
-import TechSupportPopover from "@/components/layout/TechSupportPopover";
 import type { PublicSiteSettings } from "@/lib/content-payload";
 import { phoneHref, quoteMailHref } from "@/lib/site-settings";
 
-const HPT_LOGO_SRC = "/assets/logo/hptlogo.png";
+const HPT_LOGO_SRC = "/assets/logo/vtech-group.svg";
 
 // Icon 3D phong cách Fluent, tự host trên media R2 của site (cùng bộ với
 // icon sidebar danh mục + dải cam kết).
@@ -34,7 +33,7 @@ const navLinks = [
   { href: "/dich-vu", label: "Dịch vụ" },
   { href: "/tin-tuc", label: "Tin tức" },
   { href: "/tra-cuu-bao-hanh", label: "Tra cứu bảo hành" },
-  { href: "/ve-hpt", label: "Về HPT" },
+  { href: "/ve-hpt", label: "Về Vtech Group" },
   { href: "/tuyen-dung", label: "Tuyển dụng" },
   { href: "/lien-he", label: "Liên hệ" },
 ];
@@ -69,27 +68,6 @@ export default function Header({
 
   return (
     <>
-      <div className="utility-topbar desktop-only">
-        <p>{settings.companyName} - Công ty TNHH đầu tư xây dựng và thiết bị công nghệ HPT</p>
-        <div>
-          <a href={`mailto:${settings.email}`}>
-            <Image src={`${R2_ICON}icon-topbar-mail.png`} alt="" aria-hidden="true" width={16} height={16} />
-            {settings.email}
-          </a>
-          <span>
-            <Image src={`${R2_ICON}icon-topbar-gio-lam-viec.png`} alt="" aria-hidden="true" width={16} height={16} />
-            8:00 - 17:30
-          </span>
-          {/* Nút tra cứu bảo hành (kiểu anphatpc): icon máy in + label, CSS topbar
-              tự nhuộm trắng icon + underline khi hover như các mục bên cạnh. */}
-          <Link href="/tra-cuu-bao-hanh">
-            <Image src={`${R2_ICON}icon-topbar-tra-cuu-bao-hanh.png`} alt="" aria-hidden="true" width={16} height={16} />
-            Tra cứu bảo hành
-          </Link>
-          <TechSupportPopover />
-        </div>
-      </div>
-
       <header className="main-header">
         <button
           className="icon-btn mobile-only"
@@ -142,6 +120,13 @@ export default function Header({
             <span>
               <small>Hệ thống</small>
               <b>Showroom</b>
+            </span>
+          </Link>
+          <Link className="header-hotline header-warranty desktop-only" href="/tra-cuu-bao-hanh">
+            <Image src={`${R2_ICON}icon-topbar-tra-cuu-bao-hanh.png`} alt="" aria-hidden="true" width={28} height={28} />
+            <span>
+              <small>Tra cứu</small>
+              <b>Đơn hàng</b>
             </span>
           </Link>
           <Link className="cart" href="/compare" aria-label="So sánh sản phẩm">
@@ -197,7 +182,7 @@ export default function Header({
       />
       <aside className={`mobile-menu-drawer ${mobileMenuOpen ? "open" : ""}`} aria-hidden={mobileMenuOpen ? "false" : "true"}>
         <div className="mobile-menu-head">
-          <strong>Menu HPT Tech</strong>
+          <strong>Menu Vtech Group</strong>
           <button type="button" aria-label="Đóng menu" onClick={() => setMobileMenuOpen(false)}>
             <X size={20} />
           </button>

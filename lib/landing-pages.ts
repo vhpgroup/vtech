@@ -718,7 +718,7 @@ export function buildLandingMetadata(doc: LandingPageDoc): Metadata {
     title: doc.seo?.title || doc.title || "Giải pháp máy scan",
     description:
       doc.seo?.description ||
-      `HPT Tech tư vấn ${doc.title || "giải pháp máy scan"} chính hãng, xuất VAT, giao toàn quốc cho doanh nghiệp.`,
+      `Vtech Group tư vấn ${doc.title || "giải pháp máy scan"} chính hãng, xuất VAT, giao toàn quốc cho doanh nghiệp.`,
     image: seoImageURL(doc.seo?.image),
     path: doc.seo?.canonical || doc.pathname || "/giai-phap/may-scan",
   });

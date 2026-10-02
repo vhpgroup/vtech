@@ -111,9 +111,9 @@ export default function AboutRedesign() {
     <div className="breadcrumb"><a href="/">Trang chủ</a><span>›</span><span className="cur">Giới thiệu</span></div>
     <div className="hero-grid">
       <div>
-        <div className="kicker on-dark"><span className="tri"><i></i><i></i><i></i></span> Giới thiệu HPT Technology</div>
+        <div className="kicker on-dark"><span className="tri"><i></i><i></i><i></i></span> Giới thiệu Vtech Group</div>
         <h1>Đối tác <span className="g">tích hợp hệ thống</span> & chuyển đổi số cho cơ quan nhà nước và doanh nghiệp</h1>
-        <p className="lead">HPT TECH là doanh nghiệp tư vấn, cung cấp thiết bị, tích hợp hệ thống, phát triển phần mềm và triển khai các giải pháp chuyển đổi số — với năng lực triển khai <strong style={{color:'#fff'}}>tổng thể, xuyên suốt vòng đời dự án</strong> tại Việt Nam.</p>
+        <p className="lead">VTECH GROUP là doanh nghiệp tư vấn, cung cấp thiết bị, tích hợp hệ thống, phát triển phần mềm và triển khai các giải pháp chuyển đổi số — với năng lực triển khai <strong style={{color:'#fff'}}>tổng thể, xuyên suốt vòng đời dự án</strong> tại Việt Nam.</p>
         <div className="hero-actions">
           <a href="#lien-he" className="btn btn-primary">Nhận tư vấn giải pháp
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
@@ -172,10 +172,10 @@ export default function AboutRedesign() {
 <section className="about" id="ve-chung-toi">
   <div className="wrap about-grid">
     <div className="reveal">
-      <div className="kicker"><span className="tri"><i></i><i></i><i></i></span> Về HPT Technology</div>
+      <div className="kicker"><span className="tri"><i></i><i></i><i></i></span> Về Vtech Group</div>
       <h2 className="h2" style={{marginBottom:'22px'}}>Từ nhà cung cấp thiết bị đến đối tác tích hợp hệ thống toàn diện</h2>
-      <p>Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT – <strong>HPT TECH</strong> hoạt động trong lĩnh vực tư vấn, cung cấp thiết bị, tích hợp hệ thống, phát triển phần mềm và triển khai các giải pháp chuyển đổi số cho cơ quan nhà nước, tổ chức và doanh nghiệp tại Việt Nam.</p>
-      <p>Nền tảng phát triển của HPT được hình thành từ kinh nghiệm thực tiễn của người sáng lập với <strong>hơn 20 năm</strong> hoạt động trong lĩnh vực phân phối thiết bị công nghệ thông tin và thiết bị máy văn phòng. Kế thừa nền tảng đó, HPT TECH từng bước phát triển thành doanh nghiệp có năng lực triển khai tổng thể — từ khảo sát, tư vấn, thiết kế giải pháp, cung cấp thiết bị, phát triển phần mềm, tích hợp hệ thống đến đào tạo, chuyển giao, bảo hành và hỗ trợ vận hành sau đầu tư.</p>
+      <p>Công ty TNHH Vtech Group – <strong>VTECH GROUP</strong> hoạt động trong lĩnh vực tư vấn, cung cấp thiết bị, tích hợp hệ thống, phát triển phần mềm và triển khai các giải pháp chuyển đổi số cho cơ quan nhà nước, tổ chức và doanh nghiệp tại Việt Nam.</p>
+      <p>Nền tảng phát triển của HPT được hình thành từ kinh nghiệm thực tiễn của người sáng lập với <strong>hơn 20 năm</strong> hoạt động trong lĩnh vực phân phối thiết bị công nghệ thông tin và thiết bị máy văn phòng. Kế thừa nền tảng đó, VTECH GROUP từng bước phát triển thành doanh nghiệp có năng lực triển khai tổng thể — từ khảo sát, tư vấn, thiết kế giải pháp, cung cấp thiết bị, phát triển phần mềm, tích hợp hệ thống đến đào tạo, chuyển giao, bảo hành và hỗ trợ vận hành sau đầu tư.</p>
       <div className="factlist">
         <div><small>Loại hình</small><b>Tư vấn · Tích hợp hệ thống</b></div>
         <div><small>Chuyên môn</small><b>Hạ tầng · Phần mềm · CĐS</b></div>
@@ -184,7 +184,7 @@ export default function AboutRedesign() {
       </div>
     </div>
     <div className="about-media reveal">
-      <Image src="/ve-hpt/tru-so-va-doi-ngu-hpt-technology-tai-vinhomes-ma.jpg" alt="Trụ sở và đội ngũ HPT Technology tại Vinhomes Marina, Hải Phòng" width={1100} height={902} sizes="(max-width: 920px) 92vw, 560px" />
+      <Image src="/ve-hpt/tru-so-va-doi-ngu-hpt-technology-tai-vinhomes-ma.jpg" alt="Trụ sở và đội ngũ Vtech Group tại Vinhomes Marina, Hải Phòng" width={1100} height={902} sizes="(max-width: 920px) 92vw, 560px" />
     </div>
   </div>
 </section>
@@ -195,7 +195,7 @@ export default function AboutRedesign() {
     <div className="sec-head reveal">
       <div className="kicker"><span className="tri"><i></i><i></i><i></i></span> Định hướng hoạt động</div>
       <h2 className="h2">Đối tượng khách hàng trọng tâm</h2>
-      <p className="lead" style={{marginTop:'14px'}}>HPT TECH tập trung phục vụ các dự án đầu tư công, chuyển đổi số và hiện đại hóa hạ tầng CNTT cho khối cơ quan nhà nước, tổ chức và doanh nghiệp.</p>
+      <p className="lead" style={{marginTop:'14px'}}>VTECH GROUP tập trung phục vụ các dự án đầu tư công, chuyển đổi số và hiện đại hóa hạ tầng CNTT cho khối cơ quan nhà nước, tổ chức và doanh nghiệp.</p>
     </div>
     <div className="sector-grid reveal">
       <div className="sector"><div className="si"><img src="/ve-hpt/huy-hieu-dang-cong-san-viet-nam.png" alt="Huy hiệu Đảng Cộng sản Việt Nam" decoding="async" /></div><b>Cơ quan Đảng</b></div>
@@ -219,7 +219,7 @@ export default function AboutRedesign() {
       <div className="life-card reveal">
         <div className="ring"></div><div className="ring2"></div>
         <h3>Năng lực triển khai dự án Chính phủ</h3>
-        <p>HPT TECH có khả năng tham gia xuyên suốt vòng đời của một dự án công nghệ thông tin — bảo đảm tính đồng bộ, khả năng mở rộng, hiệu quả đầu tư và sự phù hợp với quy trình vận hành thực tế của từng cơ quan, đơn vị.</p>
+        <p>VTECH GROUP có khả năng tham gia xuyên suốt vòng đời của một dự án công nghệ thông tin — bảo đảm tính đồng bộ, khả năng mở rộng, hiệu quả đầu tư và sự phù hợp với quy trình vận hành thực tế của từng cơ quan, đơn vị.</p>
         <span className="tag"><img src="/ve-hpt/icon-15.png" alt="" style={{width:'16px',height:'16px'}} decoding="async" /> Triển khai tổng thể — trọn vòng đời dự án</span>
       </div>
       <div className="reveal">
@@ -289,7 +289,7 @@ export default function AboutRedesign() {
     <div className="sec-head reveal">
       <div className="kicker on-dark"><span className="tri"><i></i><i></i><i></i></span> Phát triển phần mềm & chuyển đổi số</div>
       <h2 className="h2 on-dark">Không chỉ là thiết bị — chúng tôi xây dựng nền tảng số</h2>
-      <p className="lead on-dark" style={{marginTop:'14px'}}>HPT TECH định hướng phát triển thành doanh nghiệp có năng lực nghiên cứu, thiết kế và xây dựng các nền tảng phần mềm phục vụ chuyển đổi số.</p>
+      <p className="lead on-dark" style={{marginTop:'14px'}}>VTECH GROUP định hướng phát triển thành doanh nghiệp có năng lực nghiên cứu, thiết kế và xây dựng các nền tảng phần mềm phục vụ chuyển đổi số.</p>
     </div>
     <div className="soft-grid reveal">
       <div className="soft">
@@ -501,7 +501,7 @@ export default function AboutRedesign() {
 <section className="sec tint">
   <div className="wrap">
     <div className="sec-head reveal">
-      <div className="kicker"><span className="tri"><i></i><i></i><i></i></span> Cam kết của HPT TECH</div>
+      <div className="kicker"><span className="tri"><i></i><i></i><i></i></span> Cam kết của VTECH GROUP</div>
       <h2 className="h2">Uy tín · Chất lượng · Trách nhiệm</h2>
       <p className="lead" style={{marginTop:'14px'}}>HPT lấy uy tín, chất lượng và trách nhiệm làm nền tảng trong mọi hoạt động kinh doanh và triển khai dự án.</p>
     </div>
@@ -541,12 +541,12 @@ export default function AboutRedesign() {
       <div className="vm mission">
         <div className="vmi"><img src="/ve-hpt/icon-50.png" alt="" className="i3v" decoding="async" /></div>
         <h3>Sứ mệnh</h3>
-        <p>HPT TECH không chỉ cung cấp thiết bị công nghệ mà còn đồng hành cùng khách hàng trong việc xây dựng hệ thống, cải tiến quy trình và thực hiện chuyển đổi số.</p>
+        <p>VTECH GROUP không chỉ cung cấp thiết bị công nghệ mà còn đồng hành cùng khách hàng trong việc xây dựng hệ thống, cải tiến quy trình và thực hiện chuyển đổi số.</p>
         <p>Với nền tảng hơn 20 năm kinh nghiệm của người sáng lập cùng đội ngũ chuyên môn và tinh thần trách nhiệm, HPT mang đến các giải pháp hiện đại, đồng bộ, an toàn và hiệu quả — hướng đến khả năng vận hành ổn định, mở rộng lâu dài và tạo ra giá trị thiết thực.</p>
       </div>
     </div>
     <div className="motto reveal">
-      <div className="m-lbl">HPT TECHNOLOGY</div>
+      <div className="m-lbl">VTECH GROUPNOLOGY</div>
       <h3>Tư vấn <span className="r">đúng nhu cầu</span> — Tích hợp <span className="g">đúng giải pháp</span> — Triển khai <span className="r">đúng cam kết</span></h3>
     </div>
   </div>
@@ -558,7 +558,7 @@ export default function AboutRedesign() {
     <div className="cta-inner reveal">
       <div className="txt">
         <h2>Đăng ký nhận tư vấn giải&nbsp;pháp</h2>
-        <p>HPT TECH sẵn sàng khảo sát nhu cầu và đề xuất phương án triển khai phù hợp cho cơ quan, tổ chức và doanh nghiệp của bạn — hoàn toàn miễn phí.</p>
+        <p>VTECH GROUP sẵn sàng khảo sát nhu cầu và đề xuất phương án triển khai phù hợp cho cơ quan, tổ chức và doanh nghiệp của bạn — hoàn toàn miễn phí.</p>
         <div className="cta-contacts">
           <a className="cc-item" href="tel:0918871414"><img src="/ve-hpt/icon-51.png" alt="" /><span><small>Hotline tư vấn</small><b>0918 87 14 14</b></span></a>
           <a className="cc-item" href="mailto:bach.pv@hpttech.vn"><img src="/ve-hpt/icon-52.png" alt="" /><span><small>Email</small><b>bach.pv@hpttech.vn</b></span></a>

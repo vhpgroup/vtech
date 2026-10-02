@@ -228,7 +228,7 @@ export default function HomeHeroClient({
       <div className="hero-commerce-area">
         <section
           className="hero hero-banner"
-          aria-label="Banner HPT Tech"
+          aria-label="Banner Vtech Group"
           style={{ position: "relative" }}
         >
           {banners.map((banner, index) => {
@@ -254,7 +254,7 @@ export default function HomeHeroClient({
                 {banner?.image ? (
                   <Image
                     src={banner.image}
-                    alt={banner.title || "HPT Tech banner"}
+                    alt={banner.title || "Vtech Group banner"}
                     width={804}
                     height={470}
                     sizes={HERO_IMAGE_SIZES}
@@ -291,7 +291,7 @@ export default function HomeHeroClient({
 
         <section
           className="commercial-row"
-          aria-label="Khuyến mãi thương mại HPT Tech"
+          aria-label="Khuyến mãi thương mại Vtech Group"
         >
           {COMMERCIAL_ROW_TILES.map((tile) => (
             <CommercialTileImage key={tile.src} tile={tile} />

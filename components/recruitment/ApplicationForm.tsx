@@ -96,7 +96,7 @@ export function ApplicationForm({ jobTitle, jobCode }: { jobTitle: string; jobCo
         <label className="flex items-start gap-2 text-xs leading-5 text-slate-600">
           <input required type="checkbox" name="privacyConsent" className="mt-1 size-4 rounded border-slate-300 accent-primary-600" />
           <span>
-            Tôi đồng ý để HPT Tech xử lý thông tin ứng tuyển theo{" "}
+            Tôi đồng ý để Vtech Group xử lý thông tin ứng tuyển theo{" "}
             <Link href="/chinh-sach-bao-mat" className="font-bold text-primary-600 hover:underline">chính sách bảo mật</Link>.
           </span>
         </label>

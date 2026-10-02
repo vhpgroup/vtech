@@ -83,7 +83,7 @@ export function AboutEnterprisePage({ content, settings }: AboutEnterprisePagePr
 
         <div className="relative mx-auto grid min-h-[440px] max-w-[1280px] content-center px-10 py-16">
           <div className="max-w-[650px] about-reveal">
-            <p className="mb-6 text-sm font-bold uppercase tracking-wide text-primary-400">Giới thiệu HPT Tech</p>
+            <p className="mb-6 text-sm font-bold uppercase tracking-wide text-primary-400">Giới thiệu Vtech Group</p>
             <h1 className="text-[48px] font-bold leading-[1.08] tracking-normal text-white">
               Đối tác công nghệ
               <span className="block text-primary-400">cho doanh nghiệp hiện đại</span>

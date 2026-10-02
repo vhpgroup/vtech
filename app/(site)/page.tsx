@@ -12,9 +12,9 @@ import { normalizeSiteSettings } from "@/lib/site-settings";
 export const revalidate = 300;
 
 export const metadata = pageMetadata({
-  title: "HPT Tech - Thiết bị văn phòng & giải pháp số hóa",
+  title: "Vtech Group - Thiết bị văn phòng & giải pháp số hóa",
   description:
-    "HPT Tech cung cấp máy in, máy scan, thiết bị văn phòng và giải pháp số hóa tài liệu cho doanh nghiệp.",
+    "Vtech Group cung cấp máy in, máy scan, thiết bị văn phòng và giải pháp số hóa tài liệu cho doanh nghiệp.",
 });
 
 export default async function HomePage() {
@@ -33,7 +33,7 @@ export default async function HomePage() {
   return (
     <>
       <h1 className="sr-only">
-        Máy scan, máy in &amp; thiết bị văn phòng chính hãng cho doanh nghiệp - HPT Tech
+        Máy scan, máy in &amp; thiết bị văn phòng chính hãng cho doanh nghiệp - Vtech Group
       </h1>
       <HomePageClient
         initialProducts={products.map(toHomeCardProduct)}

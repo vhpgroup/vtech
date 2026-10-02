@@ -1412,14 +1412,14 @@ const defaultCertifications: PublicCertification[] = [
     validity: "01/06/2026 - 31/12/2026",
     issuer: "Microtek International, Inc.",
     summary:
-      "HPT Tech là nhà phân phối độc quyền máy scan Microtek (Consumer Scanners) tại Việt Nam năm 2026 - cam kết hàng chính hãng 100%, bảo hành chuẩn hãng, xuất hóa đơn VAT, giao toàn quốc.",
+      "Vtech Group là nhà phân phối độc quyền máy scan Microtek (Consumer Scanners) tại Việt Nam năm 2026 - cam kết hàng chính hãng 100%, bảo hành chuẩn hãng, xuất hóa đơn VAT, giao toàn quốc.",
     orientation: "portrait",
     featured: true,
-    contentMarkdown: `## HPT Tech - Nhà phân phối độc quyền máy scan Microtek tại Việt Nam
+    contentMarkdown: `## Vtech Group - Nhà phân phối độc quyền máy scan Microtek tại Việt Nam
 
-Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT (HPT Tech) được **Microtek International, Inc.** chỉ định là **nhà phân phối độc quyền (Authorized Sole Distributor)** dòng máy scan Microtek - Consumer Scanners - trên toàn lãnh thổ Việt Nam trong năm 2026. Chứng nhận do ông Jerry Su (Sales Director, Microtek International) ký, cấp ngày 01/06/2026.
+Công ty TNHH Vtech Group (Vtech Group) được **Microtek International, Inc.** chỉ định là **nhà phân phối độc quyền (Authorized Sole Distributor)** dòng máy scan Microtek - Consumer Scanners - trên toàn lãnh thổ Việt Nam trong năm 2026. Chứng nhận do ông Jerry Su (Sales Director, Microtek International) ký, cấp ngày 01/06/2026.
 
-> "HPT Technology Equipment and Construction Investment Company Limited is the Authorized Sole Distributor for Microtek Consumer Scanners for the territory of Vietnam 2026." - Microtek International, Inc.
+> "Vtech Group Equipment and Construction Investment Company Limited is the Authorized Sole Distributor for Microtek Consumer Scanners for the territory of Vietnam 2026." - Microtek International, Inc.
 
 ### Về thương hiệu Microtek
 
@@ -1427,7 +1427,7 @@ Microtek là một trong những hãng tiên phong của ngành quét ảnh vớ
 
 ### "Độc quyền" mang lại gì cho doanh nghiệp?
 
-Là nhà phân phối độc quyền, HPT Tech là đầu mối chính thức cung cấp máy scan Microtek tại Việt Nam, đảm bảo:
+Là nhà phân phối độc quyền, Vtech Group là đầu mối chính thức cung cấp máy scan Microtek tại Việt Nam, đảm bảo:
 
 - **Nguồn gốc minh bạch:** hàng nhập khẩu chính ngạch, đầy đủ CO/CQ và hóa đơn VAT.
 - **Bảo hành chuẩn hãng:** áp dụng đúng chính sách bảo hành của Microtek.
@@ -1438,9 +1438,9 @@ Là nhà phân phối độc quyền, HPT Tech là đầu mối chính thức cu
 
 HPT cung cấp đầy đủ dải máy scan Microtek phục vụ số hóa tài liệu hành chính, thư viện, lưu trữ, scan phim/ảnh, scan khổ lớn và các ứng dụng chuyên ngành - kèm tư vấn cấu hình theo nhu cầu về tốc độ, độ phân giải và quy mô của từng tổ chức.
 
-### Vì sao chọn HPT Tech?
+### Vì sao chọn Vtech Group?
 
-HPT Tech đồng hành cùng doanh nghiệp từ tư vấn, triển khai đến bảo trì - cam kết hàng chính hãng 100%, xuất hóa đơn VAT, giao hàng và lắp đặt trên toàn quốc. Liên hệ hotline **0918871414** để được tư vấn cấu hình và báo giá máy scan Microtek chính hãng.`,
+Vtech Group đồng hành cùng doanh nghiệp từ tư vấn, triển khai đến bảo trì - cam kết hàng chính hãng 100%, xuất hóa đơn VAT, giao hàng và lắp đặt trên toàn quốc. Liên hệ hotline **0918871414** để được tư vấn cấu hình và báo giá máy scan Microtek chính hãng.`,
   },
   {
     brand: "TP-Link Omada & VIGI",
@@ -1455,12 +1455,12 @@ HPT Tech đồng hành cùng doanh nghiệp từ tư vấn, triển khai đến 
     validity: "01/01/2026 - 31/12/2026",
     issuer: "TP-Link Technologies (VN) Co., Ltd",
     summary:
-      "HPT Tech là đối tác chính thức Omada & VIGI được TP-Link Việt Nam ủy quyền năm 2026 - phân phối thiết bị mạng doanh nghiệp Omada và camera giám sát VIGI chính hãng, giá dự án, xuất VAT.",
+      "Vtech Group là đối tác chính thức Omada & VIGI được TP-Link Việt Nam ủy quyền năm 2026 - phân phối thiết bị mạng doanh nghiệp Omada và camera giám sát VIGI chính hãng, giá dự án, xuất VAT.",
     orientation: "portrait",
     featured: true,
-    contentMarkdown: `## HPT Tech - Đối tác chính thức Omada & VIGI của TP-Link Việt Nam
+    contentMarkdown: `## Vtech Group - Đối tác chính thức Omada & VIGI của TP-Link Việt Nam
 
-HPT Tech được **TP-Link Vietnam** công nhận là **đối tác chính thức (Official Partner)** cho hai dòng giải pháp Omada và VIGI, hiệu lực từ **01/01/2026 đến 31/12/2026**. Chứng nhận do ông Yang Bo (Country Director, TP-Link Technologies (VN) Co., Ltd) ký.
+Vtech Group được **TP-Link Vietnam** công nhận là **đối tác chính thức (Official Partner)** cho hai dòng giải pháp Omada và VIGI, hiệu lực từ **01/01/2026 đến 31/12/2026**. Chứng nhận do ông Yang Bo (Country Director, TP-Link Technologies (VN) Co., Ltd) ký.
 
 > "As an Official Omada & VIGI Partner authorized by TP-Link Vietnam." - Certificate of Recognition, TP-Link.
 
@@ -1480,9 +1480,9 @@ VIGI là dòng camera IP và đầu ghi NVR của TP-Link dành cho giải pháp
 
 TP-Link được ghi nhận là nhà cung cấp sản phẩm WiFi số 1 ("No.1 WiFi Products Provider") - nền tảng vững chắc cho hạ tầng mạng doanh nghiệp.
 
-### Vì sao chọn HPT Tech?
+### Vì sao chọn Vtech Group?
 
-Là đối tác chính thức, HPT Tech tư vấn trọn gói giải pháp mạng Omada và giám sát VIGI cho doanh nghiệp - cam kết chính hãng 100%, xuất hóa đơn VAT, giao và lắp đặt toàn quốc. Liên hệ hotline **0918871414** để được khảo sát và báo giá.`,
+Là đối tác chính thức, Vtech Group tư vấn trọn gói giải pháp mạng Omada và giám sát VIGI cho doanh nghiệp - cam kết chính hãng 100%, xuất hóa đơn VAT, giao và lắp đặt toàn quốc. Liên hệ hotline **0918871414** để được khảo sát và báo giá.`,
   },
   {
     brand: "Joyusing",
@@ -1497,11 +1497,11 @@ Là đối tác chính thức, HPT Tech tư vấn trọn gói giải pháp mạn
     validity: "01/12/2025 - 30/11/2026",
     issuer: "Fujian Joyusing Technology Co., Ltd",
     summary:
-      "HPT Tech là nhà phân phối ủy quyền Joyusing tại Việt Nam (12/2025-11/2026) - máy chiếu vật thể, máy scan tài liệu Joyusing chính hãng cho giáo dục và văn phòng, bảo hành & hậu mãi, xuất VAT.",
+      "Vtech Group là nhà phân phối ủy quyền Joyusing tại Việt Nam (12/2025-11/2026) - máy chiếu vật thể, máy scan tài liệu Joyusing chính hãng cho giáo dục và văn phòng, bảo hành & hậu mãi, xuất VAT.",
     orientation: "portrait",
-    contentMarkdown: `## HPT Tech - Nhà phân phối ủy quyền Joyusing tại Việt Nam
+    contentMarkdown: `## Vtech Group - Nhà phân phối ủy quyền Joyusing tại Việt Nam
 
-HPT Tech được **Fujian Joyusing Technology Co., Ltd** ủy quyền phân phối sản phẩm thương hiệu Joyusing tại Việt Nam, hiệu lực từ **01/12/2025 đến 30/11/2026**. Chứng nhận do ông Yi Chen (Sales Manager) ký, đồng thời xác nhận HPT Tech chịu trách nhiệm bán hàng, bảo hành và dịch vụ hậu mãi cho sản phẩm Joyusing.
+Vtech Group được **Fujian Joyusing Technology Co., Ltd** ủy quyền phân phối sản phẩm thương hiệu Joyusing tại Việt Nam, hiệu lực từ **01/12/2025 đến 30/11/2026**. Chứng nhận do ông Yi Chen (Sales Manager) ký, đồng thời xác nhận Vtech Group chịu trách nhiệm bán hàng, bảo hành và dịch vụ hậu mãi cho sản phẩm Joyusing.
 
 > "...is an authorised distributor in Vietnam of Joyusing brand product..." - Fujian Joyusing Technology Co., Ltd.
 
@@ -1516,12 +1516,12 @@ Sản phẩm Joyusing phù hợp cho trường học, cơ quan hành chính và 
 ### Lợi ích khi mua từ nhà phân phối ủy quyền
 
 - **Hàng chính hãng:** đầy đủ CO/CQ, hóa đơn VAT, nguồn gốc rõ ràng.
-- **Bảo hành & hậu mãi tại Việt Nam:** do HPT Tech trực tiếp đảm nhận theo ủy quyền của hãng.
+- **Bảo hành & hậu mãi tại Việt Nam:** do Vtech Group trực tiếp đảm nhận theo ủy quyền của hãng.
 - **Hỗ trợ kỹ thuật:** tư vấn lựa chọn thiết bị phù hợp môi trường giáo dục và văn phòng.
 
-### Vì sao chọn HPT Tech?
+### Vì sao chọn Vtech Group?
 
-HPT Tech cung cấp thiết bị Joyusing chính hãng kèm dịch vụ trọn gói cho trường học và doanh nghiệp - cam kết chính hãng 100%, xuất hóa đơn VAT, giao hàng toàn quốc. Liên hệ hotline **0918871414** để được tư vấn và báo giá.`,
+Vtech Group cung cấp thiết bị Joyusing chính hãng kèm dịch vụ trọn gói cho trường học và doanh nghiệp - cam kết chính hãng 100%, xuất hóa đơn VAT, giao hàng toàn quốc. Liên hệ hotline **0918871414** để được tư vấn và báo giá.`,
   },
   {
     brand: "TTR Entertainment",
@@ -1537,13 +1537,13 @@ HPT Tech cung cấp thiết bị Joyusing chính hãng kèm dịch vụ trọn g
     issuer: "dhaudiotechnik - TTR Audio Brand Operation Center",
     certNo: "825370015",
     summary:
-      "HPT Tech là nhà phân phối ủy quyền TTR Entertainment tại Việt Nam (9/2025-9/2026), phân phối toàn bộ dải sản phẩm (full series) thiết bị âm thanh - giải trí chính hãng, xuất VAT, giao toàn quốc.",
+      "Vtech Group là nhà phân phối ủy quyền TTR Entertainment tại Việt Nam (9/2025-9/2026), phân phối toàn bộ dải sản phẩm (full series) thiết bị âm thanh - giải trí chính hãng, xuất VAT, giao toàn quốc.",
     orientation: "landscape",
-    contentMarkdown: `## HPT Tech - Nhà phân phối ủy quyền TTR Entertainment tại Việt Nam
+    contentMarkdown: `## Vtech Group - Nhà phân phối ủy quyền TTR Entertainment tại Việt Nam
 
-HPT Tech được **dhaudiotechnik (TTR Audio Brand Operation Center)** ủy quyền phân phối **toàn bộ dải sản phẩm (full series)** thương hiệu TTR Entertainment tại Việt Nam, hiệu lực từ **01/09/2025 đến 01/09/2026** (số chứng nhận 825370015).
+Vtech Group được **dhaudiotechnik (TTR Audio Brand Operation Center)** ủy quyền phân phối **toàn bộ dải sản phẩm (full series)** thương hiệu TTR Entertainment tại Việt Nam, hiệu lực từ **01/09/2025 đến 01/09/2026** (số chứng nhận 825370015).
 
-> "Hereby authorize HPT Technology Equipment and Construction Investment Company Limited - Distribution area: Vietnam - Distribution products: Full series." - dhaudiotechnik / TTR Audio.
+> "Hereby authorize Vtech Group Equipment and Construction Investment Company Limited - Distribution area: Vietnam - Distribution products: Full series." - dhaudiotechnik / TTR Audio.
 
 ### Về thương hiệu TTR Entertainment
 
@@ -1551,7 +1551,7 @@ TTR Entertainment là thương hiệu thiết bị âm thanh - giải trí, đư
 
 ### Phạm vi phân phối
 
-HPT Tech được ủy quyền phân phối **full series** - toàn bộ danh mục sản phẩm hiện hành của TTR Entertainment - trên phạm vi toàn quốc, kèm tư vấn lựa chọn cấu hình theo từng nhu cầu sử dụng.
+Vtech Group được ủy quyền phân phối **full series** - toàn bộ danh mục sản phẩm hiện hành của TTR Entertainment - trên phạm vi toàn quốc, kèm tư vấn lựa chọn cấu hình theo từng nhu cầu sử dụng.
 
 ### Lợi ích khi mua từ nhà phân phối ủy quyền
 
@@ -1559,9 +1559,9 @@ HPT Tech được ủy quyền phân phối **full series** - toàn bộ danh m�
 - **Bảo hành theo tiêu chuẩn thương hiệu:** quyền lợi bảo hành rõ ràng cho khách hàng.
 - **Hỗ trợ kỹ thuật & hậu mãi:** đồng hành lâu dài sau bán hàng.
 
-### Vì sao chọn HPT Tech?
+### Vì sao chọn Vtech Group?
 
-Với ủy quyền phân phối full series, HPT Tech là đầu mối tin cậy cung cấp thiết bị TTR Entertainment chính hãng tại Việt Nam - cam kết chính hãng 100%, xuất hóa đơn VAT, giao hàng toàn quốc. Liên hệ hotline **0918871414** để được tư vấn và báo giá.`,
+Với ủy quyền phân phối full series, Vtech Group là đầu mối tin cậy cung cấp thiết bị TTR Entertainment chính hãng tại Việt Nam - cam kết chính hãng 100%, xuất hóa đơn VAT, giao hàng toàn quốc. Liên hệ hotline **0918871414** để được tư vấn và báo giá.`,
   },
 ];
 

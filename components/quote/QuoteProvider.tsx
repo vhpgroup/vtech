@@ -33,12 +33,12 @@ type PrintMode = "color" | "grayscale";
 const QuoteContext = createContext<QuoteContextValue | null>(null);
 
 const HPT_INFO = {
-  company: "CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG VÀ THIẾT BỊ CÔNG NGHỆ HPT",
+  company: "CÔNG TY TNHH VTECH GROUP",
   address: "SB.04 khu đô thị Vinhomes Marina, P. An Biên, TP. Hải Phòng",
   phone: "0918871414",
   website: "www.hpttech.vn",
   taxCode: "0202253444",
-  bankOwner: "CÔNG TY TNHH ĐẦU TƯ XÂY DỰNG VÀ THIẾT BỊ CÔNG NGHỆ HPT",
+  bankOwner: "CÔNG TY TNHH VTECH GROUP",
   bankAccount: "929223339",
   bankName: "Techcombank - CN Hải Phòng",
   consultant: "Phạm Văn Bách",
@@ -130,8 +130,8 @@ function QuoteDocument({
       <header className="quote-intro grid gap-5 border-b-4 border-primary-600 pb-5 md:grid-cols-[190px_1fr]">
         <div className="flex items-center">
           <Image
-            src="/assets/logo/hptlogo.png"
-            alt="HPT Technology"
+            src="/assets/logo/vtech-group.svg"
+            alt="Vtech Group"
             width={170}
             height={92}
             priority
@@ -275,7 +275,7 @@ function QuoteDocument({
         </section>
 
         <p className="mt-8 text-center text-lg font-extrabold italic text-primary-600">
-          HPT Tech trân trọng cảm ơn Quý khách hàng!
+          Vtech Group trân trọng cảm ơn Quý khách hàng!
         </p>
       </div>
     </article>
@@ -445,8 +445,8 @@ export function QuoteProvider({ children }: { children: ReactNode }) {
       body { font-family: "Segoe UI", Arial, sans-serif; color: #0f172a; font-size: 13px; }
       table { border-collapse: collapse; width: 100%; }
       th, td { border: 1px solid #9db8e8; padding: 6px 8px; vertical-align: top; font-size: 13px; }
-      thead th { background: #2563eb; color: #ffffff; text-transform: uppercase; font-size: 12px; }
-      h1 { color: #2563eb; text-transform: uppercase; }
+      thead th { background: #008ddf; color: #ffffff; text-transform: uppercase; font-size: 12px; }
+      h1 { color: #008ddf; text-transform: uppercase; }
       h2, h3 { margin: 6px 0; }
       ul { margin: 4px 0; padding-left: 18px; }
       img { max-width: 130px; }

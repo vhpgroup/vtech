@@ -184,14 +184,14 @@ export async function generateMetadata({ params }: PageProps) {
   if (!product) {
     return pageMetadata({
       title: "Sản phẩm",
-      description: "Thông tin sản phẩm HPT Tech.",
+      description: "Thông tin sản phẩm Vtech Group.",
       path: `/san-pham/${slug}`,
     });
   }
 
   return pageMetadata({
     title: product.title,
-    description: product.detail || "Thông tin sản phẩm, thông số và báo giá từ HPT Tech.",
+    description: product.detail || "Thông tin sản phẩm, thông số và báo giá từ Vtech Group.",
     path: `/san-pham/${product.slug}`,
     image: product.images?.[0]?.url || product.image,
   });
@@ -281,7 +281,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
       priceCurrency: "VND",
       availability: schemaAvailability(product.stockStatus),
       itemCondition: "https://schema.org/NewCondition",
-      seller: { "@type": "Organization", name: settings.companyName || "HPT Tech" },
+      seller: { "@type": "Organization", name: settings.companyName || "Vtech Group" },
       ...(schemaPrice ? { price: schemaPrice } : {}),
     },
   };
@@ -476,7 +476,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
           <ProductAsideCollapse>
             <div className="overflow-hidden rounded-xl bg-white shadow-[0_16px_34px_-28px_rgba(15,23,42,0.24)] ring-1 ring-slate-200/70">
               <div className="bg-primary-600 px-4 py-3">
-                <h2 className="text-sm font-bold uppercase text-white">Cam kết HPT Tech</h2>
+                <h2 className="text-sm font-bold uppercase text-white">Cam kết Vtech Group</h2>
               </div>
               <ul className="space-y-2 px-4 py-4">
                 {[

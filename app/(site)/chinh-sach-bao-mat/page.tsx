@@ -8,7 +8,7 @@ import { phoneHref } from "@/lib/site-settings";
 export const metadata = pageMetadata({
   title: "Chính sách bảo mật thông tin",
   description:
-    "Chính sách thu thập, sử dụng, lưu trữ và bảo vệ thông tin khách hàng tại HPT Tech.",
+    "Chính sách thu thập, sử dụng, lưu trữ và bảo vệ thông tin khách hàng tại Vtech Group.",
   path: "/chinh-sach-bao-mat",
 });
 
@@ -38,18 +38,18 @@ export default function PrivacyPolicyPage() {
             </h1>
 
             <p className="mx-auto mt-5 max-w-4xl text-center text-slate-600">
-              HPT Tech tôn trọng quyền riêng tư và cam kết bảo vệ thông tin của khách hàng trong
+              Vtech Group tôn trọng quyền riêng tư và cam kết bảo vệ thông tin của khách hàng trong
               quá trình truy cập website, liên hệ tư vấn và sử dụng sản phẩm, dịch vụ.
             </p>
 
             <PolicySection number="1" title="Mục đích thu thập thông tin cá nhân">
               <p>
-                Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT chỉ thu thập những thông tin
+                Công ty TNHH Vtech Group chỉ thu thập những thông tin
                 cần thiết để tư vấn, báo giá, cung cấp sản phẩm, dịch vụ và nâng cao chất lượng chăm
                 sóc khách hàng.
               </p>
               <p>
-                Khi khách hàng liên hệ hoặc sử dụng các dịch vụ trên website, HPT Tech có thể tiếp
+                Khi khách hàng liên hệ hoặc sử dụng các dịch vụ trên website, Vtech Group có thể tiếp
                 nhận họ tên, số điện thoại, email, địa chỉ liên hệ và những thông tin cần thiết khác.
                 Khách hàng chịu trách nhiệm về tính chính xác của thông tin đã cung cấp.
               </p>
@@ -71,7 +71,7 @@ export default function PrivacyPolicyPage() {
                 ]}
               />
               <p>
-                HPT Tech không mua bán, chuyển nhượng hoặc chia sẻ dữ liệu khách hàng cho bên thứ ba
+                Vtech Group không mua bán, chuyển nhượng hoặc chia sẻ dữ liệu khách hàng cho bên thứ ba
                 vì mục đích thương mại khi chưa có sự đồng ý, trừ trường hợp pháp luật yêu cầu hoặc
                 cần thiết để thực hiện dịch vụ mà khách hàng đã đề nghị.
               </p>
@@ -84,7 +84,7 @@ export default function PrivacyPolicyPage() {
                 định pháp luật hiện hành.
               </p>
               <p>
-                Khi thông tin không còn cần thiết, HPT Tech sẽ thực hiện xóa, ẩn danh hoặc áp dụng
+                Khi thông tin không còn cần thiết, Vtech Group sẽ thực hiện xóa, ẩn danh hoặc áp dụng
                 biện pháp xử lý phù hợp theo quy trình quản lý dữ liệu nội bộ.
               </p>
             </PolicySection>
@@ -105,7 +105,7 @@ export default function PrivacyPolicyPage() {
             <PolicySection number="5" title="Đơn vị thu thập và quản lý thông tin">
               <div className="border border-slate-300 bg-slate-50 p-5 sm:p-6">
                 <h3 className="font-black uppercase leading-7 text-slate-900">
-                  Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT
+                  Công ty TNHH Vtech Group
                 </h3>
                 <div className="mt-5 grid gap-4 md:grid-cols-2">
                   <ContactItem icon={MapPin} label="Địa chỉ" value={address} />
@@ -123,13 +123,13 @@ export default function PrivacyPolicyPage() {
 
             <PolicySection number="6" title="Cam kết bảo mật thông tin khách hàng">
               <p>
-                HPT Tech áp dụng các biện pháp kỹ thuật và quản lý phù hợp để hạn chế nguy cơ truy
+                Vtech Group áp dụng các biện pháp kỹ thuật và quản lý phù hợp để hạn chế nguy cơ truy
                 cập, sử dụng, thay đổi hoặc tiết lộ thông tin trái phép. Các biện pháp bảo mật được
                 rà soát và cập nhật phù hợp với hoạt động của hệ thống.
               </p>
               <p>
                 Do đặc thù của môi trường Internet, không hệ thống nào có thể bảo đảm an toàn tuyệt
-                đối trước mọi rủi ro. Khi xảy ra sự cố ngoài khả năng kiểm soát hợp lý, HPT Tech sẽ
+                đối trước mọi rủi ro. Khi xảy ra sự cố ngoài khả năng kiểm soát hợp lý, Vtech Group sẽ
                 nhanh chóng đánh giá, hạn chế thiệt hại và phối hợp xử lý theo quy định pháp luật.
               </p>
             </PolicySection>
@@ -137,11 +137,11 @@ export default function PrivacyPolicyPage() {
             <PolicySection number="7" title="Tiếp nhận và giải quyết khiếu nại">
               <p>
                 Nếu phát hiện thông tin bị sử dụng sai mục đích, tiết lộ trái phép hoặc có vấn đề
-                liên quan đến bảo mật dữ liệu, khách hàng có thể liên hệ trực tiếp với HPT Tech qua
+                liên quan đến bảo mật dữ liệu, khách hàng có thể liên hệ trực tiếp với Vtech Group qua
                 hotline hoặc email được công bố trên trang này.
               </p>
               <p>
-                Mọi phản ánh sẽ được tiếp nhận, xác minh và xử lý trong thời gian phù hợp. HPT Tech
+                Mọi phản ánh sẽ được tiếp nhận, xác minh và xử lý trong thời gian phù hợp. Vtech Group
                 cam kết phối hợp với khách hàng và cơ quan chức năng có liên quan để giải quyết vụ
                 việc minh bạch, đúng quy định và bảo vệ quyền lợi hợp pháp của khách hàng.
               </p>
@@ -154,7 +154,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <div className="mt-5 space-y-2">
                 <p className="font-bold uppercase text-slate-900">
-                  Công ty TNHH Đầu tư Xây dựng và Thiết bị Công nghệ HPT
+                  Công ty TNHH Vtech Group
                 </p>
                 <p>Địa chỉ: {address}</p>
                 <p>

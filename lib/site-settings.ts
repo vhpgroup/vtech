@@ -1,7 +1,7 @@
 import type { PublicSiteSettings } from "@/lib/content-payload";
 
 export const defaultSiteSettings: Required<PublicSiteSettings> = {
-  companyName: "HPT Tech",
+  companyName: "Công ty TNHH Vtech Group",
   phone: "0918871414",
   hotline: "0918871414",
   email: "bach.pv@hpttech.vn",
@@ -9,7 +9,7 @@ export const defaultSiteSettings: Required<PublicSiteSettings> = {
   facebook: "https://www.facebook.com/hpttechnologystore/",
   zalo: "https://zalo.me/0918871414",
   youtube: "",
-  googleMapsTitle: "Vị trí HPT Tech",
+  googleMapsTitle: "Vị trí Vtech Group",
   googleMapsEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8869.68045157909!2d106.68996330454054!3d20.821962434073413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a7155698f3c69%3A0x95aed3909eec7d29!2sHPT%20Tech!5e0!3m2!1svi!2s!4v1780717662780!5m2!1svi!2s",
   googleMapsDirectionsUrl: "https://www.google.com/maps/search/?api=1&query=HPT%20Tech",
@@ -30,6 +30,10 @@ export function normalizeSiteSettings(settings?: PublicSiteSettings | null): Req
 
   return {
     ...normalized,
+    companyName:
+      normalized.companyName === "Vtech Group" || normalized.companyName === "Vtech Group"
+        ? defaultSiteSettings.companyName
+        : normalized.companyName,
     phone: publicPhone,
     hotline: publicPhone,
   };
@@ -47,6 +51,6 @@ export function phoneHref(value: string) {
   return `tel:${value.replace(/[^\d+]/g, "")}`;
 }
 
-export function quoteMailHref(email: string, subject = "Yêu cầu báo giá HPT Tech") {
+export function quoteMailHref(email: string, subject = "Yêu cầu báo giá Vtech Group") {
   return `mailto:${email}?subject=${encodeURIComponent(subject)}`;
 }

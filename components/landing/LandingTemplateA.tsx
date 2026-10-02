@@ -64,7 +64,7 @@ const GROUP_META = {
     heroEyebrow: "Giải pháp máy scan chính hãng",
     fallbackTitle: "Giải pháp máy scan cho doanh nghiệp",
     fallbackLead:
-      "HPT Tech tư vấn và cung cấp máy scan chính hãng, giải pháp số hóa phù hợp theo khối lượng và đặc thù đơn vị.",
+      "Vtech Group tư vấn và cung cấp máy scan chính hãng, giải pháp số hóa phù hợp theo khối lượng và đặc thù đơn vị.",
     productsTitle: "Máy scan phù hợp để tham khảo",
     catalogLabel: "Xem tất cả máy scan",
     catalogEmptyLabel: "Xem danh mục máy scan",
@@ -76,7 +76,7 @@ const GROUP_META = {
     heroEyebrow: "Giải pháp máy in chính hãng",
     fallbackTitle: "Giải pháp máy in cho doanh nghiệp",
     fallbackLead:
-      "HPT Tech tư vấn và cung cấp máy in chính hãng, cấu hình phù hợp theo khối lượng in và đặc thù đơn vị.",
+      "Vtech Group tư vấn và cung cấp máy in chính hãng, cấu hình phù hợp theo khối lượng in và đặc thù đơn vị.",
     productsTitle: "Máy in phù hợp để tham khảo",
     catalogLabel: "Xem tất cả máy in",
     catalogEmptyLabel: "Xem danh mục máy in",
@@ -88,7 +88,7 @@ const GROUP_META = {
     heroEyebrow: "Giải pháp máy photocopy chính hãng",
     fallbackTitle: "Giải pháp máy photocopy cho doanh nghiệp",
     fallbackLead:
-      "HPT Tech tư vấn và cung cấp máy photocopy chính hãng, cấu hình phù hợp theo khối lượng bản chụp và đặc thù đơn vị.",
+      "Vtech Group tư vấn và cung cấp máy photocopy chính hãng, cấu hình phù hợp theo khối lượng bản chụp và đặc thù đơn vị.",
     productsTitle: "Máy photocopy phù hợp để tham khảo",
     catalogLabel: "Xem tất cả máy photocopy",
     catalogEmptyLabel: "Xem danh mục máy photocopy",
@@ -245,7 +245,7 @@ export function LandingTemplateA({ doc, products }: LandingTemplateAProps) {
               </div>
             ) : (
               <div className="rounded-2xl border border-border bg-white p-6 shadow-soft">
-                <h2 className="text-lg font-bold text-ink">Cam kết HPT Tech</h2>
+                <h2 className="text-lg font-bold text-ink">Cam kết Vtech Group</h2>
                 <div className="mt-4 grid gap-3 text-sm leading-6 text-slate-700">
                   {TRUST_ITEMS.map(({ Icon, label }) => (
                     <div key={label} className="flex gap-2">
@@ -293,7 +293,7 @@ export function LandingTemplateA({ doc, products }: LandingTemplateAProps) {
       {painPoints.length ? (
         <section className="bg-surface px-4 py-14 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-6xl">
-            <SectionTitle eyebrow="Nhu cầu thực tế" title="Các vấn đề HPT Tech thường xử lý" />
+            <SectionTitle eyebrow="Nhu cầu thực tế" title="Các vấn đề Vtech Group thường xử lý" />
             <div className="grid gap-5 md:grid-cols-3">
               {painPoints.map((item, index) => {
                 const Icon = PAIN_ICONS[index % PAIN_ICONS.length];
@@ -346,7 +346,7 @@ export function LandingTemplateA({ doc, products }: LandingTemplateAProps) {
           ) : (
             <div className="mx-auto max-w-2xl rounded-2xl border border-border bg-surface p-8 text-center">
               <p className="text-base leading-7 text-slate-700">
-                Chưa có model đủ khớp bộ lọc. HPT Tech sẽ tư vấn model thay thế hoặc cấu hình dự án theo nhu cầu thực tế.
+                Chưa có model đủ khớp bộ lọc. Vtech Group sẽ tư vấn model thay thế hoặc cấu hình dự án theo nhu cầu thực tế.
               </p>
               <Link className="mt-4 inline-flex font-bold text-primary-700" href={meta.catalogPath}>
                 {meta.catalogEmptyLabel}

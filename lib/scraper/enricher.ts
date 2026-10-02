@@ -64,11 +64,11 @@ export async function enrichProductContent(
           messages: [
             {
               content: [
-                "Viet noi dung san pham tieng Viet cho HPT Tech.",
+                "Viet noi dung san pham tieng Viet cho Vtech Group.",
                 "Chi dua tren du lieu duoc cung cap, khong bia thong so ky thuat.",
                 "Tra ve JSON hop le gom summary va description.",
                 "summary dai 2-4 cau.",
-                "description co cac muc: Tong quan, Diem noi bat, Phu hop cho nhu cau, Mua hang tai HPT Tech.",
+                "description co cac muc: Tong quan, Diem noi bat, Phu hop cho nhu cau, Mua hang tai Vtech Group.",
                 `Brand: ${brandName}`,
                 `Data: ${JSON.stringify(data)}`,
               ].join("\n"),
@@ -121,15 +121,15 @@ export async function enrichProductContent(
     "",
     "Điểm nổi bật",
     "",
-    specs || "- Thông số kỹ thuật sẽ được nhân viên HPT Tech kiểm tra và bổ sung trước khi xuất bản.",
+    specs || "- Thông số kỹ thuật sẽ được nhân viên Vtech Group kiểm tra và bổ sung trước khi xuất bản.",
     "",
     "Phù hợp cho nhu cầu",
     "",
     `${data.title} phù hợp với khách hàng cần thiết bị ${brandName} chính hãng, có thông tin rõ ràng và được tư vấn triển khai theo nhu cầu thực tế.`,
     "",
-    "Mua hàng tại HPT Tech",
+    "Mua hàng tại Vtech Group",
     "",
-    "HPT Tech hỗ trợ tư vấn cấu hình, báo giá, giao hàng và bảo hành theo chính sách của hãng. Nhân viên sẽ kiểm tra lại giá và tình trạng hàng trước khi xác nhận đơn.",
+    "Vtech Group hỗ trợ tư vấn cấu hình, báo giá, giao hàng và bảo hành theo chính sách của hãng. Nhân viên sẽ kiểm tra lại giá và tình trạng hàng trước khi xác nhận đơn.",
   ].join("\n");
 
   return { description, summary };

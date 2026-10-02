@@ -27,7 +27,7 @@ export const SITE_PAGES: Record<SitePageSlug, SitePage> = {
     title: "Sản phẩm",
     eyebrow: "Catalog thiết bị",
     description:
-      "Danh mục máy scan, máy in và thiết bị văn phòng đang được HPT Tech ưu tiên tư vấn cho doanh nghiệp.",
+      "Danh mục máy scan, máy in và thiết bị văn phòng đang được Vtech Group ưu tiên tư vấn cho doanh nghiệp.",
     ctaLabel: "So sánh sản phẩm",
     ctaHref: "/compare",
   },
@@ -43,7 +43,7 @@ export const SITE_PAGES: Record<SitePageSlug, SitePage> = {
     title: "Thương hiệu",
     eyebrow: "Đối tác công nghệ",
     description:
-      "Các thương hiệu thiết bị văn phòng và hạ tầng đang xuất hiện trong dữ liệu sản phẩm của HPT Tech.",
+      "Các thương hiệu thiết bị văn phòng và hạ tầng đang xuất hiện trong dữ liệu sản phẩm của Vtech Group.",
   },
   "du-an": {
     slug: "du-an",
@@ -71,16 +71,16 @@ export const SITE_PAGES: Record<SitePageSlug, SitePage> = {
     title: "Về HPT",
     eyebrow: "Hồ sơ doanh nghiệp",
     description:
-      "Thông tin giới thiệu, năng lực tư vấn và định vị dịch vụ của HPT Tech.",
+      "Thông tin giới thiệu, năng lực tư vấn và định vị dịch vụ của Vtech Group.",
   },
   "lien-he": {
     slug: "lien-he",
     title: "Liên hệ",
     eyebrow: "Tư vấn nhanh",
     description:
-      "Gửi nhu cầu báo giá, tư vấn thiết bị hoặc triển khai giải pháp để đội ngũ HPT Tech phản hồi.",
+      "Gửi nhu cầu báo giá, tư vấn thiết bị hoặc triển khai giải pháp để đội ngũ Vtech Group phản hồi.",
     ctaLabel: "Gửi email báo giá",
-    ctaHref: "mailto:bach.pv@hpttech.vn?subject=Yêu cầu tư vấn HPT Tech",
+    ctaHref: "mailto:bach.pv@hpttech.vn?subject=Yêu cầu tư vấn Vtech Group",
   },
   chat: {
     slug: "chat",

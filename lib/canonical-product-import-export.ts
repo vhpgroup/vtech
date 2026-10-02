@@ -345,7 +345,7 @@ async function recordsToExcel(
     ? templateColumnsForProfile(profile)
     : columnsForProfile(profile);
   const workbook = new ExcelJS.Workbook();
-  workbook.creator = "HPT Tech";
+  workbook.creator = "Vtech Group";
   workbook.created = new Date();
   const worksheet = workbook.addWorksheet(template ? "Mẫu import" : "Sản phẩm");
   worksheet.views = [{ state: "frozen", ySplit: template ? 3 : 1 }];
@@ -356,7 +356,7 @@ async function recordsToExcel(
 
   if (template) {
     const note = worksheet.addRow([
-      "HPT Tech - Mẫu import sản phẩm. Cột có dấu * là bắt buộc. Không đổi tên/xóa dòng tiêu đề màu xanh.",
+      "Vtech Group - Mẫu import sản phẩm. Cột có dấu * là bắt buộc. Không đổi tên/xóa dòng tiêu đề màu xanh.",
     ]);
     worksheet.mergeCells(1, 1, 1, columns.length);
     note.height = 24;

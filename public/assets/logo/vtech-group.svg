@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" role="img" aria-labelledby="title description">
+  <title id="title">Vtech Group</title>
+  <description id="description">Biểu tượng chữ VT cùng mũi tên phát triển màu xanh dương và xanh ngọc</description>
+  <defs>
+    <linearGradient id="vtech-blue" x1="30" y1="120" x2="214" y2="35" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#004b9b" />
+      <stop offset=".54" stop-color="#008edf" />
+      <stop offset="1" stop-color="#16c5cf" />
+    </linearGradient>
+    <linearGradient id="vtech-teal" x1="202" y1="110" x2="356" y2="36" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#007dba" />
+      <stop offset="1" stop-color="#00bcae" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#vtech-blue)" d="M20 24h57l47 66 38-66h56l-79 110H92z" />
+  <path fill="url(#vtech-blue)" d="M145 24h57l33 52 35-52h57l-75 110h-48z" />
+  <path fill="url(#vtech-teal)" d="m104 100 18 19C196 95 254 62 324 26l-10-15C234 48 168 82 104 100Z" />
+  <path fill="#00bcae" d="m315 12 44-12-13 43-11-18z" />
+  <text x="20" y="145" fill="#0759aa" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" letter-spacing="3">VTECH GROUP</text>
+</svg>
